@@ -23,7 +23,7 @@ const Header = () => {
           {/* Logo with image and text */}
           <NavLink to="/" className="flex items-center" aria-label="Gateagrivet Home">
             <img 
-              src="/img/logo.jpg" 
+              src="/favicon.ico" 
               alt="Gateagrivet Logo"
               className="h-8 w-auto mr-3"
               width="32"
