@@ -19,6 +19,10 @@ const AboutSection = () => {
               Founded in 2010, our company has been dedicated to providing high-quality products and exceptional service to our customers. 
               We believe in sustainable practices and maintaining strong relationships with our partners and clients.
             </p>
+            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+              Our commitment to excellence drives us to carefully select each product in our catalog, ensuring it meets our rigorous quality standards. 
+              We work directly with manufacturers and trusted suppliers to bring you the best products at competitive prices.
+            </p>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
               Our team of experts works tirelessly to ensure that we deliver only the best products to meet the diverse needs of our customers. 
               We take pride in our attention to detail and commitment to excellence.

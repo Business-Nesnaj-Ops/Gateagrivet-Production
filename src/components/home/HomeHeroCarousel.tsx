@@ -2,12 +2,11 @@ import { useEffect, useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-// Sample carousel data
 const carouselData = [
   {
     id: 1,
     title: 'Premium Quality Products',
-    description: 'Discover our collection of high-quality products designed for your needs.',
+    description: 'Discover our extensive collection of high-quality products carefully curated to meet your needs. From electronics to beverages, we offer only the finest selection.',
     buttonText: 'Shop Now',
     buttonLink: '/products',
     image: 'https://media.istockphoto.com/id/153560796/photo/small-pig.jpg?s=1024x1024&w=is&k=20&c=xcUhUDVtqQzuB3VOT38JI3TxRJkAW-4IXTPHyCKRYZA=',
@@ -15,7 +14,7 @@ const carouselData = [
   {
     id: 2,
     title: 'New Arrivals Weekly',
-    description: 'Stay up to date with our latest products and exclusive offers.',
+    description: 'Stay ahead of the curve with our weekly product updates. Experience the latest innovations and trending items before anyone else.',
     buttonText: 'View Collection',
     buttonLink: '/products',
     image: 'https://images.pexels.com/photos/7019342/pexels-photo-7019342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
@@ -23,7 +22,7 @@ const carouselData = [
   {
     id: 3,
     title: 'Premium Customer Service',
-    description: 'Our team is dedicated to providing exceptional customer service.',
+    description: 'Experience exceptional customer service with our dedicated team of experts. We're here to help you find the perfect products and answer all your questions.',
     buttonText: 'Contact Us',
     buttonLink: '/contact',
     image: 'https://images.pexels.com/photos/19492226/pexels-photo-19492226/free-photo-of-tomatoes-on-a-food-market.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
@@ -44,7 +43,6 @@ const HomeHeroCarousel = () => {
 
   const goToSlide = (index: number) => {
     setCurrentSlide(index);
-    // Pause autoplay briefly when manually changing slides
     setIsAutoPlaying(false);
     setTimeout(() => setIsAutoPlaying(true), 5000);
   };
@@ -64,7 +62,6 @@ const HomeHeroCarousel = () => {
 
   return (
     <div className="relative h-[70vh] md:h-[80vh] overflow-hidden">
-      {/* Carousel slides */}
       {carouselData.map((slide, index) => (
         <div
           key={slide.id}
@@ -72,7 +69,6 @@ const HomeHeroCarousel = () => {
             currentSlide === index ? 'opacity-100 z-20' : 'opacity-0 z-10'
           }`}
         >
-          {/* Background image with overlay */}
           <div className="absolute inset-0 w-full h-full">
             <div className="absolute inset-0 bg-black/40 z-10" />
             <img
@@ -82,13 +78,12 @@ const HomeHeroCarousel = () => {
             />
           </div>
           
-          {/* Content */}
           <div className="relative z-20 h-full flex items-center">
             <div className="container mx-auto px-4">
               <div className="max-w-xl">
-                <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
+                <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
                   {slide.title}
-                </h1>
+                </h2>
                 <p className="text-lg md:text-xl text-white/90 mb-8">
                   {slide.description}
                 </p>
@@ -104,7 +99,6 @@ const HomeHeroCarousel = () => {
         </div>
       ))}
       
-      {/* Navigation arrows */}
       <button
         onClick={prevSlide}
         className="absolute left-4 top-1/2 -translate-y-1/2 z-30 w-10 h-10 flex items-center justify-center rounded-full bg-white/30 backdrop-blur-sm text-white hover:bg-white/40 transition-colors duration-300"
@@ -120,7 +114,6 @@ const HomeHeroCarousel = () => {
         <ChevronRight size={24} />
       </button>
       
-      {/* Indicators */}
       <div className="absolute bottom-6 left-0 right-0 z-30 flex justify-center gap-2">
         {carouselData.map((_, index) => (
           <button
