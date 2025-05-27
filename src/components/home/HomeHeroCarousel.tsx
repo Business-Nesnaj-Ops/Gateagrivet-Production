@@ -1,0 +1,142 @@
+import { useEffect, useState } from 'react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
+
+// Sample carousel data
+const carouselData = [
+  {
+    id: 1,
+    title: 'Premium Quality Products',
+    description: 'Discover our collection of high-quality products designed for your needs.',
+    buttonText: 'Shop Now',
+    buttonLink: '/products',
+    image: 'https://media.istockphoto.com/id/153560796/photo/small-pig.jpg?s=1024x1024&w=is&k=20&c=xcUhUDVtqQzuB3VOT38JI3TxRJkAW-4IXTPHyCKRYZA=',
+  },
+  {
+    id: 2,
+    title: 'New Arrivals Weekly',
+    description: 'Stay up to date with our latest products and exclusive offers.',
+    buttonText: 'View Collection',
+    buttonLink: '/products',
+    image: 'https://images.pexels.com/photos/7019342/pexels-photo-7019342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  },
+  {
+    id: 3,
+    title: 'Premium Customer Service',
+    description: 'Our team is dedicated to providing exceptional customer service.',
+    buttonText: 'Contact Us',
+    buttonLink: '/contact',
+    image: 'https://images.pexels.com/photos/19492226/pexels-photo-19492226/free-photo-of-tomatoes-on-a-food-market.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  }
+];
+
+const HomeHeroCarousel = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev === carouselData.length - 1 ? 0 : prev + 1));
+  };
+  
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev === 0 ? carouselData.length - 1 : prev - 1));
+  };
+
+  const goToSlide = (index: number) => {
+    setCurrentSlide(index);
+    // Pause autoplay briefly when manually changing slides
+    setIsAutoPlaying(false);
+    setTimeout(() => setIsAutoPlaying(true), 5000);
+  };
+  
+  useEffect(() => {
+    let interval: number | undefined;
+    if (isAutoPlaying) {
+      interval = window.setInterval(() => {
+        nextSlide();
+      }, 5000);
+    }
+    
+    return () => {
+      if (interval) clearInterval(interval);
+    };
+  }, [isAutoPlaying, currentSlide]);
+
+  return (
+    <div className="relative h-[70vh] md:h-[80vh] overflow-hidden">
+      {/* Carousel slides */}
+      {carouselData.map((slide, index) => (
+        <div
+          key={slide.id}
+          className={`absolute inset-0 transition-opacity duration-1000 ${
+            currentSlide === index ? 'opacity-100 z-20' : 'opacity-0 z-10'
+          }`}
+        >
+          {/* Background image with overlay */}
+          <div className="absolute inset-0 w-full h-full">
+            <div className="absolute inset-0 bg-black/40 z-10" />
+            <img
+              src={slide.image}
+              alt={slide.title}
+              className="w-full h-full object-cover"
+            />
+          </div>
+          
+          {/* Content */}
+          <div className="relative z-20 h-full flex items-center">
+            <div className="container mx-auto px-4">
+              <div className="max-w-xl">
+                <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
+                  {slide.title}
+                </h1>
+                <p className="text-lg md:text-xl text-white/90 mb-8">
+                  {slide.description}
+                </p>
+                <Link
+                  to={slide.buttonLink}
+                  className="inline-block bg-sky-600 hover:bg-sky-700 text-white font-medium py-3 px-8 rounded-md transition-colors duration-300"
+                >
+                  {slide.buttonText}
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
+      
+      {/* Navigation arrows */}
+      <button
+        onClick={prevSlide}
+        className="absolute left-4 top-1/2 -translate-y-1/2 z-30 w-10 h-10 flex items-center justify-center rounded-full bg-white/30 backdrop-blur-sm text-white hover:bg-white/40 transition-colors duration-300"
+        aria-label="Previous slide"
+      >
+        <ChevronLeft size={24} />
+      </button>
+      <button
+        onClick={nextSlide}
+        className="absolute right-4 top-1/2 -translate-y-1/2 z-30 w-10 h-10 flex items-center justify-center rounded-full bg-white/30 backdrop-blur-sm text-white hover:bg-white/40 transition-colors duration-300"
+        aria-label="Next slide"
+      >
+        <ChevronRight size={24} />
+      </button>
+      
+      {/* Indicators */}
+      <div className="absolute bottom-6 left-0 right-0 z-30 flex justify-center gap-2">
+        {carouselData.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => goToSlide(index)}
+            className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
+              currentSlide === index 
+                ? 'bg-white w-8' 
+                : 'bg-white/50 hover:bg-white/70'
+            }`}
+            aria-label={`Go to slide ${index + 1}`}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default HomeHeroCarousel;
