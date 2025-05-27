@@ -5,7 +5,7 @@ const logos = [
   'https://static.vecteezy.com/system/resources/previews/023/654/784/non_2x/golden-logo-template-free-png.png',
   'https://images.pexels.com/photos/5698855/pexels-photo-5698855.jpeg',
   'https://images.pexels.com/photos/5698855/pexels-photo-5698855.jpeg',
-  'https://images.pexels.com/photos/5698855/pexels-photo-5698855.jpeg',
+  '/img/logo.jpg',
   'https://images.pexels.com/photos/5698855/pexels-photo-5698855.jpeg',
 ];
 
