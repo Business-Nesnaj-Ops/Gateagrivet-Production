@@ -22,7 +22,7 @@ const carouselData = [
   {
     id: 3,
     title: 'Premium Customer Service',
-    description: 'Experience exceptional customer service with our dedicated team of experts. We're here to help you find the perfect products and answer all your questions.',
+    description: 'Experience exceptional customer service with our dedicated team of experts. We\'re here to help you find the perfect products and answer all your questions.',
     buttonText: 'Contact Us',
     buttonLink: '/contact',
     image: 'https://images.pexels.com/photos/19492226/pexels-photo-19492226/free-photo-of-tomatoes-on-a-food-market.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
