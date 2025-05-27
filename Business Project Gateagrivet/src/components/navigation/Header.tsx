@@ -24,7 +24,7 @@ const Header = () => {
           <NavLink to="/" className="flex items-center">
             {/* Replace '/logo.png' with your actual logo path */}
             <img 
-              src="https://static.vecteezy.com/system/resources/previews/023/654/784/non_2x/golden-logo-template-free-png.png" 
+              src="/img/logo.jpg" 
               alt="Gateagrivet Logo"
               className="h-8 w-auto mr-3" // Adjust size as needed
             />
