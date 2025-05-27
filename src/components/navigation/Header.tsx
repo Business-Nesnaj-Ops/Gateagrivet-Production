@@ -17,16 +17,17 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-white fixed top-0 left-0 right-0 z-50 border-b">
+    <header className="bg-white fixed top-0 left-0 right-0 z-50 border-b" role="banner">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           {/* Logo with image and text */}
-          <NavLink to="/" className="flex items-center">
-            {/* Replace '/logo.png' with your actual logo path */}
+          <NavLink to="/" className="flex items-center" aria-label="Gateagrivet Home">
             <img 
               src="https://static.vecteezy.com/system/resources/previews/023/654/784/non_2x/golden-logo-template-free-png.png" 
               alt="Gateagrivet Logo"
-              className="h-8 w-auto mr-3" // Adjust size as needed
+              className="h-8 w-auto mr-3"
+              width="32"
+              height="32"
             />
             <span className="text-xl font-bold text-gray-900">
               Gateagrivet
@@ -34,7 +35,7 @@ const Header = () => {
           </NavLink>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex space-x-8" role="navigation" aria-label="Main navigation">
             {navLinks.map((link) => (
               <NavLink
                 key={link.path}
@@ -57,6 +58,8 @@ const Header = () => {
             className="md:hidden text-gray-600 focus:outline-none" 
             onClick={toggleMenu}
             aria-label="Toggle menu"
+            aria-expanded={isMenuOpen}
+            aria-controls="mobile-menu"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -64,25 +67,27 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden pb-4 bg-white">
-            <div className="flex flex-col space-y-3">
-              {navLinks.map((link) => (
-                <NavLink
-                  key={link.path}
-                  to={link.path}
-                  className={({ isActive }) => 
-                    `py-2 px-4 text-base font-medium ${
-                      isActive 
-                        ? 'bg-gray-100 text-gray-900' 
-                        : 'text-gray-600 hover:bg-gray-50'
-                    }`
-                  }
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {link.name}
-                </NavLink>
-              ))}
-            </div>
+          <div id="mobile-menu" className="md:hidden pb-4 bg-white">
+            <nav role="navigation" aria-label="Mobile navigation">
+              <div className="flex flex-col space-y-3">
+                {navLinks.map((link) => (
+                  <NavLink
+                    key={link.path}
+                    to={link.path}
+                    className={({ isActive }) => 
+                      `py-2 px-4 text-base font-medium ${
+                        isActive 
+                          ? 'bg-gray-100 text-gray-900' 
+                          : 'text-gray-600 hover:bg-gray-50'
+                      }`
+                    }
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {link.name}
+                  </NavLink>
+                ))}
+              </div>
+            </nav>
           </div>
         )}
       </div>
