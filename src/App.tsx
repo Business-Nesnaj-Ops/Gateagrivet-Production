@@ -43,7 +43,7 @@ function App() {
           </Suspense>
         } />
         {/* Add redirect from /landers to home */}
-        <Route path="landers" element={<Navigate to="/" replace />} />
+        <Route path="landers" element={<Navigate to="/\" replace />} />
         <Route path="*" element={
           <Suspense fallback={<LoadingScreen />}>
             <NotFoundPage />
