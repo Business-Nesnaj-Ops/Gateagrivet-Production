@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
 
+# Prevent duplicate content
+Disallow: /*?
+Disallow: /*&
+
+# Sitemap
 Sitemap: https://gateagrivet.com/sitemap.xml
