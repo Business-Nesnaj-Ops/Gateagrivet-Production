@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
 import Layout from './layouts/Layout';
 import LoadingScreen from './components/utils/LoadingScreen';
@@ -42,6 +42,8 @@ function App() {
             <ContactPage />
           </Suspense>
         } />
+        {/* Add redirect from /landers to home */}
+        <Route path="landers" element={<Navigate to="/" replace />} />
         <Route path="*" element={
           <Suspense fallback={<LoadingScreen />}>
             <NotFoundPage />
