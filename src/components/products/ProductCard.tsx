@@ -15,7 +15,6 @@ const ProductCard = ({ product }: ProductCardProps) => {
   return (
     <>
       <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
-        {/* Make image clickable */}
         <div 
           className="h-64 overflow-hidden cursor-pointer"
           onClick={openModal}
@@ -33,7 +32,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
           
           <button
             onClick={openModal}
-            className="w-full bg-sky-600 hover:bg-sky-700 text-white font-medium py-2 px-4 rounded transition-colors duration-300"
+            className="btn-primary w-full"
           >
             More Info
           </button>

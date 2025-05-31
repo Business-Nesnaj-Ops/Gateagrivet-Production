@@ -13,13 +13,13 @@ const CallToAction = () => {
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Link
             to="/products"
-            className="inline-block bg-blue hover:bg-sky-600 text-black-600 font-medium py-3 px-8 rounded-md transition-colors duration-300"
+            className="btn-primary"
           >
             Explore Products
           </Link>
           <Link
             to="/contact"
-            className="inline-block bg-transparent hover:bg-sky-600 text-gray border-2 border-sky font-medium py-3 px-8 rounded-md transition-colors duration-300"
+            className="btn-outline"
           >
             Contact Us
           </Link>

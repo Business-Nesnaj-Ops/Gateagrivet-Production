@@ -14,41 +14,18 @@
   h1, h2, h3, h4, h5, h6 {
     @apply font-sans leading-tight;
   }
-  
-  /* Hide scrollbar for WebKit browsers */
-  .scrollbar-hide::-webkit-scrollbar {
-    display: none;
-  }
-  
-  /* Hide scrollbar for Firefox */
-  .scrollbar-hide {
-    scrollbar-width: none;
-  }
-
-  /* Page transition animation */
-  .page-enter {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-
-  .page-enter-active {
-    opacity: 1;
-    transform: translateY(0);
-    transition: opacity 300ms, transform 300ms;
-  }
-
-  .page-exit {
-    opacity: 1;
-  }
-
-  .page-exit-active {
-    opacity: 0;
-    transition: opacity 300ms;
-  }
 }
 
 @layer components {
   .container {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply inline-block bg-[#00754a] hover:bg-[#1e3932] text-white font-medium py-2 px-4 rounded-full transition-colors duration-300 border border-[#00754a] hover:border-[#1e3932];
+  }
+
+  .btn-outline {
+    @apply inline-block bg-transparent hover:bg-[#00754a] text-[#00754a] hover:text-white font-medium py-2 px-4 rounded-full transition-colors duration-300 border border-[#00754a];
   }
 }
