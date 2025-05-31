@@ -89,7 +89,7 @@ const HomeHeroCarousel = () => {
                 </p>
                 <Link
                   to={slide.buttonLink}
-                  className="inline-block bg-sky-600 hover:bg-sky-700 text-white font-medium py-3 px-8 rounded-md transition-colors duration-300"
+                  className="inline-block bg-[#0067CD] hover:bg-[#004C97] text-white font-medium py-3 px-8 rounded-full transition-colors duration-300"
                 >
                   {slide.buttonText}
                 </Link>
