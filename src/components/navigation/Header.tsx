@@ -17,7 +17,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-white fixed top-0 left-0 right-0 z-50 border-b" role="banner">
+    <header className="bg-primary text-white fixed top-0 left-0 right-0 z-50 shadow-md" role="banner">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           {/* Logo with image and text */}
@@ -29,7 +29,7 @@ const Header = () => {
               width="32"
               height="32"
             />
-            <span className="text-xl font-bold text-gray-900">
+            <span className="text-xl font-bold text-white">
               Gateagrivet
             </span>
           </NavLink>
@@ -41,10 +41,10 @@ const Header = () => {
                 key={link.path}
                 to={link.path}
                 className={({ isActive }) => 
-                  `text-base font-medium ${
+                  `text-base font-medium transition-colors ${
                     isActive 
-                      ? 'text-gray-900 font-semibold' 
-                      : 'text-gray-600 hover:text-gray-900'
+                      ? 'text-accent font-semibold' 
+                      : 'text-white hover:text-accent-light'
                   }`
                 }
               >
@@ -55,7 +55,7 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button 
-            className="md:hidden text-gray-600 focus:outline-none" 
+            className="md:hidden text-white focus:outline-none" 
             onClick={toggleMenu}
             aria-label="Toggle menu"
             aria-expanded={isMenuOpen}
@@ -67,7 +67,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div id="mobile-menu" className="md:hidden pb-4 bg-white">
+          <div id="mobile-menu" className="md:hidden pb-4 bg-primary-dark">
             <nav role="navigation" aria-label="Mobile navigation">
               <div className="flex flex-col space-y-3">
                 {navLinks.map((link) => (
@@ -75,10 +75,10 @@ const Header = () => {
                     key={link.path}
                     to={link.path}
                     className={({ isActive }) => 
-                      `py-2 px-4 text-base font-medium ${
+                      `py-2 px-4 text-base font-medium transition-colors ${
                         isActive 
-                          ? 'bg-gray-100 text-gray-900' 
-                          : 'text-gray-600 hover:bg-gray-50'
+                          ? 'bg-primary-light text-accent' 
+                          : 'text-white hover:bg-primary-light hover:text-accent-light'
                       }`
                     }
                     onClick={() => setIsMenuOpen(false)}
