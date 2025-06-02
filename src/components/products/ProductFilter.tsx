@@ -35,7 +35,7 @@ const ProductFilter = ({
             id="category"
             value={selectedCategory}
             onChange={(e) => setSelectedCategory(e.target.value as ProductCategory | 'all')}
-            className="w-full rounded-md border-sky-300 shadow-sm focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50 py-2 px-3 border"
+            className="w-full rounded-md border-gray-300 shadow-sm focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50 py-2 px-3 border"
           >
             {categories.map((category) => (
               <option key={category.value} value={category.value}>
@@ -52,7 +52,7 @@ const ProductFilter = ({
           </label>
           <div className="relative">
             <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-              <Search size={18} className="text-gray-400" />
+              <Search className="h-5 w-5 text-gray-400" />
             </div>
             <input
               type="text"
