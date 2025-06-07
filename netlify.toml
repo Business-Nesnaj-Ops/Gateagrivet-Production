@@ -18,11 +18,11 @@
   [headers.values]
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
-    Content-Security-Policy = "default-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com https://images.pexels.com https://www.google.com https://www.googletagmanager.com https://www.google-analytics.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://images.pexels.com https://www.google-analytics.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com; frame-src https://www.google.com;"
+    Content-Security-Policy = "default-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com https://images.pexels.com https://www.google.com https://www.googletagmanager.com https://www.google-analytics.com https://unpkg.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://images.pexels.com https://www.google-analytics.com https://media.istockphoto.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://formsubmit.co; frame-src https://www.google.com https://www.google.com/maps/;"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
 
-# Fix for social media crawlers
+# Fix for social media crawlers and bots
 [[headers]]
   for = "/"
   [headers.values]
@@ -32,3 +32,30 @@
   for = "/img/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+# Ensure proper handling of static assets
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Handle PDF files
+[[headers]]
+  for = "/pdfs/*"
+  [headers.values]
+    Content-Type = "application/pdf"
+    Cache-Control = "public, max-age=86400"
+
+# Ensure robots.txt is accessible
+[[redirects]]
+  from = "/robots.txt"
+  to = "/robots.txt"
+  status = 200
+  force = false
+
+# Ensure sitemap.xml is accessible
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap.xml"
+  status = 200
+  force = false
