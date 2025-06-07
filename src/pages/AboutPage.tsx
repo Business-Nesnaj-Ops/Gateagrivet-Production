@@ -14,6 +14,7 @@ const AboutPage = () => {
           {/* Hero section */}
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">About Our Company</h1>
+            <h1 class="hidden">Gateagrivet</h1>
             <p className="text-lg text-gray-600">
               Learn about our mission, vision, and the team behind our products.
             </p>
