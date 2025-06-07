@@ -13,6 +13,7 @@ const ContactPage = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Contact Us</h1>
+           <h1>Gateagrivet</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Have questions about our products or services? Get in touch with our team.
           </p>
