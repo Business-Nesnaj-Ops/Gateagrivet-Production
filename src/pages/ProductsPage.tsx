@@ -36,6 +36,7 @@ const ProductsPage = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Our Products</h1>
+          <h1 class="hidden">Gateagrivet</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Browse our extensive collection of high-quality products designed to meet your needs.
           </p>
