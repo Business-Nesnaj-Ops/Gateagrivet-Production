@@ -12,6 +12,7 @@ const HomePage = () => {
 
   return (
     <div>
+        <h1 class="hidden">Gateagrivet</h1>
       <h1 className="sr-only">Welcome to Gateagrivet - Your Premium Product Destination</h1>
       <HomeHeroCarousel />
       <section className="py-12 bg-white">
