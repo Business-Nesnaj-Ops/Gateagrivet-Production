@@ -5,7 +5,7 @@ import { X } from 'lucide-react';
 const galleryImages = [
   {
     id: 1,
-    src: 'https://github.com/Business-Nesnaj-Ops/Business-Project/blob/main/Images/licenses/2025%20LTO%20BAI%20IMPORTER.GATEAGRIVET%20INC..pdf',
+    src: 'https://github.com/Business-Nesnaj-Ops/Business-Project/blob/main/Images/licenses/2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
     alt: 'Modern office space',
   },
   {
