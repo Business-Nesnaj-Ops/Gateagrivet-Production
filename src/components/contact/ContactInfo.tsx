@@ -39,8 +39,8 @@ const ContactInfo = () => {
           </div>
           <div>
             <h3 className="text-lg font-medium text-gray-900 mb-1">Email Address</h3>
-            <p className="text-gray-700">info@gateagrivet.com</p>
-            <p className="text-gray-700">support@gateagrivet.com</p>
+            <p className="text-gray-700">gateagrivet.inc.2018@gmail.com</p>
+            <p className="text-gray-700">gateagrivet@gmail.com</p>
           </div>
         </div>
         
