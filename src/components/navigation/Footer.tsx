@@ -88,8 +88,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="mr-2 flex-shrink-0" />
-                <a href="mailto:info@gateagrivet.com" className="hover:text-white transition-colors">
-                  info@gateagrivet.com
+                <a href="mailto:gateagrivet.inc.2018@gmail.com" className="hover:text-white transition-colors">
+                  gateagrivet.inc.2018@gmail.com
                 </a>
               </li>
             </ul>
