@@ -18,6 +18,7 @@ const galleryImages = [
     src: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     alt: 'Product development',
   },
+  /*
   {
     id: 4,
     src: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -48,6 +49,7 @@ const galleryImages = [
     src: 'https://images.pexels.com/photos/3182774/pexels-photo-3182774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     alt: 'Company culture',
   },
+  */
 ];
 
 const ImageGallery = () => {
