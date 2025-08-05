@@ -90,7 +90,7 @@ const AboutPage = () => {
           
           {/* Image Gallery */}
           <div className="mb-16">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Our Workspace</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">LICENSES TO OPERATE</h2>
             <ImageGallery />
           </div>
           
