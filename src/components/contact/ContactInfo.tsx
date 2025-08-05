@@ -11,9 +11,12 @@ const ContactInfo = () => {
           </div>
           <div>
             <h3 className="text-lg font-medium text-gray-900 mb-1">Our Location</h3>
-            <p className="text-gray-700">123 Business Street</p>
-            <p className="text-gray-700">New York, NY 10001</p>
-            <p className="text-gray-700">United States</p>
+            <p className="text-gray-700">Univation Motor Phils. Inc. (UMPI Complex)</p>
+            <p className="text-gray-700">Nissan Techno Park</p>
+            <p className="text-gray-700">Brgy. Pulong Sta. Cruz</p>
+            <p className="text-gray-700">City of Sta. Rosa</p>
+            <p className="text-gray-700">Province of Laguna</p>
+            <p className="text-gray-700">Philippines</p>
           </div>
         </div>
         
