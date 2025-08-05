@@ -118,7 +118,7 @@ const ContactForm = () => {
                 id="phone"
                 name="phone"
                 type="tel"
-                placeholder="+1 (555) 123-4567"
+                placeholder="(+63) (0) 9064142340"
                 {...formik.getFieldProps('phone')}
                 className={`w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-sky-500 ${
                   formik.touched.phone && formik.errors.phone
