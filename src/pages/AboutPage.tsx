@@ -75,15 +75,19 @@ const AboutPage = () => {
                 },
                 {
                   title: 'Customer Commitment',
-                  description: ' We build lasting relationships by understanding and supporting our clients’ needs.'
-                }
+                  description: 'We build lasting relationships by understanding and supporting our clients’ needs.'
+                },
                 {
-                  title: 'Customer Commitment',
-                  description: ' We build lasting relationships by understanding and supporting our clients’ needs.'
-                }
+                  title: 'Innovation',
+                  description: 'We embrace new technologies and solutions to improve animal health and productivity.'
+                },
                 {
-                  title: 'Customer Commitment',
-                  description: ' We build lasting relationships by understanding and supporting our clients’ needs.'
+                  title: 'Sustainability',
+                  description: 'We promote responsible practices that support the long-term health of the agriculture and aquaculture industries.'
+                },
+                {
+                  title: 'Collaboration',
+                  description: 'We work hand-in-hand with farmers, feed manufacturers, and industry partners for shared success.'
                 }
               ].map((value, index) => (
                 <div key={index} className="bg-white p-6 rounded-lg shadow-md">
