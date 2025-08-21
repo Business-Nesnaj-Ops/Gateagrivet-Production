@@ -5,17 +5,17 @@ import { X } from 'lucide-react';
 const galleryImages = [
   {
     id: 1,
-    src: '/public/cert/2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
+    src: '/public/img/2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
     alt: '2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
   },
   {
     id: 2,
-     src: '/public/cert/2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
+     src: '/public/img/2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
     alt: '2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
   },
   {
     id: 3,
-     src: '/public/cert/2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
+     src: '/public/img/2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
     alt: '2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
   },
   /*
