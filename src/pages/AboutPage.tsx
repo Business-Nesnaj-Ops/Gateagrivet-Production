@@ -16,7 +16,11 @@ const AboutPage = () => {
             <h1 className="text-4xl font-bold text-gray-900 mb-4">About Our Company</h1>
             <h1 class="hidden">Gateagrivet</h1>
             <p className="text-lg text-gray-600">
-              Learn about our mission, vision, and the team behind our products.
+              GateAgrivet is a Philippine-based company, established by Doctors of Veterinary Medicine and an Animal Nutritionist, specializing in the importation and distribution of high-quality animal feeds, feed ingredients, veterinary products, and biologics. With offices and warehouses in Sta. Rosa, Laguna, and Naga City, Camarines Sur, we serve the livestock and aquaculture industries nationwide.
+
+We are the exclusive importer and distributor of Empyreal® 75 (Corn Protein Concentrate) from Cargill USA and supply premium protein meals, enzymes, and feed additives. Our services include farm consultation and animal nutrition expertise.
+
+Licensed by BOC and BAI, we operate with full compliance as a trusted partner in the animal industry.
             </p>
           </div>
           
