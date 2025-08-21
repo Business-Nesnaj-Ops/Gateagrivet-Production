@@ -143,9 +143,9 @@ export const products: Product[] = [
   },
   {
     id: 9,
-    title: 'Levi’s 501 Jeans',
-    description: 'Levi’s 501 Jeans are an all-time fashion staple.',
-    fullDescription: 'These jeans are rugged, durable, and iconic—great for everyday wear or dressing up casual style.',
+    title: 'QUALITY CHICKEN MEAT',
+    description: 'A high-protein, highly palatable chicken ingredient',
+    fullDescription: 'A high-protein, highly palatable chicken ingredient that promotes better health and feed performance.',
     category: 'Clothing',
     image: 'https://images.pexels.com/photos/30942014/pexels-photo-30942014/free-photo-of-young-man-skateboarding-in-urban-skatepark.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
