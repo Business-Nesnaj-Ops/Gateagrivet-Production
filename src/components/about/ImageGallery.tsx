@@ -10,13 +10,13 @@ const galleryImages = [
   },
   {
     id: 2,
-    src: 'https://images.pexels.com/photos/1170412/pexels-photo-1170412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    alt: 'Meeting room',
+     src: '/public/cert/2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
+    alt: '2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
   },
   {
     id: 3,
-    src: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    alt: 'Product development',
+     src: '/public/cert/2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
+    alt: '2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
   },
   /*
   {
