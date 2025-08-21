@@ -45,8 +45,8 @@ export const products: Product[] = [
   },
   {
     id: 3,
-    title: 'Pepsi',
-    description: 'Pepsi is one of our best sellers.',
+    title: 'CORN PROTEIN CONCETRATE (CPC) EMPYREAL 75',
+    description: 'Manufactured by CARGILL USA',
     fullDescription: 'Pepsi is a globally loved soda known for its bold taste and satisfying fizz. Ideal for any meal or moment.',
     category: 'Beverages',
     image: 'https://images.pexels.com/photos/12040254/pexels-photo-12040254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
