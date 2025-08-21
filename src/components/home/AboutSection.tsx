@@ -16,8 +16,6 @@ const AboutSection = () => {
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-4">About Our Company</h2>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-               
- 	
 GateAgrivet is a Philippine-based company, established by Doctors of Veterinary Medicine and an Animal Nutritionist, specializing in the importation and distribution of high-quality animal feeds, feed ingredients, veterinary products, and biologics. With offices and warehouses in Sta. Rosa, Laguna, and Naga City, Camarines Sur, we serve the livestock and aquaculture industries nationwide.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
