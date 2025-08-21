@@ -95,9 +95,9 @@ export const products: Product[] = [
   },
   {
     id: 6,
-    title: 'Nike Air Force 1',
-    description: 'Nike Air Force 1 is a streetwear classic. ',
-    fullDescription: 'A timeless design, Nike Air Force 1 blends fashion with comfort and durability for everyday use.',
+    title: 'SUNFLOWER MEAL (USA)',
+    description: 'A plant-based protein powerhouse that supports sustainable,',
+    fullDescription: 'A plant-based protein powerhouse that supports sustainable, healthy animal growth without compromising nutrition.',
     category: 'Shoes',
     image: 'https://images.pexels.com/photos/6474814/pexels-photo-6474814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
