@@ -159,9 +159,9 @@ export const products: Product[] = [
   },
   {
     id: 10,
-    title: 'Uniqlo Supima Cotton Tee',
-    description: 'Soft and stylish Supima Cotton T-shirt from Uniqlo.',
-    fullDescription: 'Made from 100% Supima cotton, this tee is lightweight, breathable, and perfect for layering or casual wear.',
+    title: 'FISH MEAL (KOREA)',
+    description: 'Rich in omega-3s and essential amino acids,',
+    fullDescription: 'Rich in omega-3s and essential amino acids, this premium marine protein supports superior growth, reproduction, and overall health.',
     category: 'Clothing',
     image: 'https://images.pexels.com/photos/9558567/pexels-photo-9558567.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
