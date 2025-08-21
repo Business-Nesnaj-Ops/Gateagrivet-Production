@@ -207,9 +207,9 @@ export const products: Product[] = [
   },
   {
     id: 13,
-    title: 'Pepsi',
-    description: 'Pepsi is one of our best sellers.',
-    fullDescription: 'Pepsi is a globally loved soda known for its bold taste and satisfying fizz. Ideal for any meal or moment.',
+    title: 'SQUID LIVER POWDER (SLP KOREA',
+    description: 'A natural marine attractant that makes feeds',
+    fullDescription: 'A natural marine attractant that makes feeds irresistible while delivering rich protein for enhanced growth.',
     category: 'Beverages',
     image: 'https://images.pexels.com/photos/12040254/pexels-photo-12040254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
