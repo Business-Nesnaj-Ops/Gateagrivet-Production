@@ -127,9 +127,9 @@ export const products: Product[] = [
   },
   {
     id: 8,
-    title: 'LG OLED C2 55” TV',
-    description: 'LG OLED C2 delivers stunning picture quality.',
-    fullDescription: 'With self-lit OLED technology, LG’s C2 series offers perfect blacks and breathtaking visuals for movie lovers and gamers.',
+    title: 'QUALITY MEAT',
+    description: 'Premium-grade meat ingredient that boosts palatability',
+    fullDescription: 'Premium-grade meat ingredient that boosts palatability and protein levels in specialized feed formulas.',
     category: 'Electronics',
     image: 'https://images.pexels.com/photos/7476603/pexels-photo-7476603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
