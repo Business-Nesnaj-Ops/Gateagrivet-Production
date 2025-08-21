@@ -3,7 +3,7 @@ import { Product } from '../types/product';
 export const products: Product[] = [
   {
     id: 1,
-    title: 'The Best Coca-Cola Classic ',
+    title: 'H I G H - E N E R GY B A K E RY ME A L - USA',
     description: 'Best Coca-Cola Classic is one of our best sellers.',
     fullDescription: 'Coca-Cola Classic is one of our best sellers. It is a refreshing drink perfect for any occasion. Whether at a party or relaxing at home, Coca-Cola satisfies your thirst like no other.',
     category: 'Beverages',
