@@ -51,8 +51,7 @@ const AboutPage = () => {
             <div className="bg-gray-50 p-8 rounded-lg">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h2>
               <p className="text-gray-700">
-                To be recognized globally as a leader in our industry, setting the standard for product quality, 
-                innovation, and customer service, while positively impacting communities around the world.
+                To be the leading and most trusted importer and distributor of animal feed ingredients and veterinary products in the Philippines, empowering the livestock and aquaculture sectors toward sustainable growth.
               </p>
             </div>
           </div>
