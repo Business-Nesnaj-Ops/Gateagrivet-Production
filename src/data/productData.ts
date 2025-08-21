@@ -24,9 +24,9 @@ export const products: Product[] = [
   },
   {
     id: 2,
-    title: 'Sprite',
-    description: 'Sprite is one of our best sellers.',
-    fullDescription: 'Sprite is one of our best sellers. A lemon-lime flavored soft drink that’s perfect for hot days and casual sipping.',
+    title: 'AQUA PHOTO - (FEEDS ADDITIVES)',
+    description: 'Boost water quality, feed efficiency, and fish health',
+    fullDescription: 'Boost water quality, feed efficiency, and fish health with our specialized aqua additives—engineered for stronger, faster-growing aquatic stocks.',
     category: 'Beverages',
     image: 'https://images.pexels.com/photos/31332092/pexels-photo-31332092/free-photo-of-refreshing-lemon-lime-soda-can-in-misty-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     previewImage1:  'https://images.pexels.com/photos/31332092/pexels-photo-31332092/free-photo-of-refreshing-lemon-lime-soda-can-in-misty-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
