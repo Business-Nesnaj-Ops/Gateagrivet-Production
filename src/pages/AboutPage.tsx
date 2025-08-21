@@ -66,8 +66,8 @@ const AboutPage = () => {
                   description: 'We deliver only the highest standard of products and services to our clients.'
                 },
                 {
-                  title: 'Innovation',
-                  description: 'We continuously seek new ways to improve our products and processes to better serve our customers.'
+                  title: 'Expertise',
+                  description: 'We apply veterinary and nutritional knowledge to provide effective, science-based solutions.'
                 },
                 {
                   title: 'Integrity',
