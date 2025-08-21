@@ -71,7 +71,7 @@ const AboutPage = () => {
                 },
                 {
                   title: 'Integrity',
-                  description: 'We conduct our business with honesty, transparency, and ethical standards.'
+                  description: 'We uphold honesty, transparency, and ethical practices in every transaction.'
                 },
                 {
                   title: 'Sustainability',
