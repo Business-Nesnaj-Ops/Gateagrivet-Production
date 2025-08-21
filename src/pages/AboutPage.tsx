@@ -25,7 +25,7 @@ Licensed by BOC and BAI, we operate with full compliance as a trusted partner in
           </div>
           
           {/* Company story */}
-          <div className="mb-16">
+          {/*<div className="mb-16">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Our Story</h2>
             <div className="prose prose-lg max-w-none">
               <p>
@@ -42,7 +42,7 @@ Licensed by BOC and BAI, we operate with full compliance as a trusted partner in
                 the evolving needs of our customers.
               </p>
             </div>
-          </div>
+          </div>*/}
           
           {/* Mission and Vision */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
