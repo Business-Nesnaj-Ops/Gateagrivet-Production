@@ -74,8 +74,16 @@ const AboutPage = () => {
                   description: 'We uphold honesty, transparency, and ethical practices in every transaction.'
                 },
                 {
-                  title: 'Sustainability',
-                  description: 'We strive to minimize our environmental impact and promote responsible practices.'
+                  title: 'Customer Commitment',
+                  description: ' We build lasting relationships by understanding and supporting our clients’ needs.'
+                }
+                {
+                  title: 'Customer Commitment',
+                  description: ' We build lasting relationships by understanding and supporting our clients’ needs.'
+                }
+                {
+                  title: 'Customer Commitment',
+                  description: ' We build lasting relationships by understanding and supporting our clients’ needs.'
                 }
               ].map((value, index) => (
                 <div key={index} className="bg-white p-6 rounded-lg shadow-md">
