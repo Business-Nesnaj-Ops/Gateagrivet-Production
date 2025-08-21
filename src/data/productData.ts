@@ -79,9 +79,9 @@ export const products: Product[] = [
   },
   {
     id: 5,
-    title: 'Samsung Galaxy S23',
-    description: 'Galaxy S23 is a best-selling Android smartphone.',
-    fullDescription: 'Samsung Galaxy S23 features a high-res camera, sleek design, and powerful chipset for all-day performance.',
+    title: 'FEEDS',
+    description: 'From poultry to livestock, our expertly',
+    fullDescription: 'From poultry to livestock, our expertly formulated feeds provide complete nutrition for optimal health, productivity, and performance.',
     category: 'Electronics',
     image: 'https://images.pexels.com/photos/30466740/pexels-photo-30466740/free-photo-of-elegant-smartphone-beside-potted-plants-on-desk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
