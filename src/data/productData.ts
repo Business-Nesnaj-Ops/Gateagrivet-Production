@@ -175,9 +175,9 @@ export const products: Product[] = [
   },
 {
     id: 11,
-    title: 'Coca-Cola Classic',
-    description: 'Coca-Cola Classic is one of our best sellers.',
-    fullDescription: 'Coca-Cola Classic is one of our best sellers. It is a refreshing drink perfect for any occasion. Whether at a party or relaxing at home, Coca-Cola satisfies your thirst like no other.',
+    title: 'MDCP AND MCP - CHINA ORIGIN',
+    description: 'Boost bone strength and growth efficiency with these essential',
+    fullDescription: 'Boost bone strength and growth efficiency with these essential phosphate minerals—trusted for consistent quality.',
     category: 'Beverages',
     image: 'https://images.pexels.com/photos/3819969/pexels-photo-3819969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
@@ -191,9 +191,9 @@ export const products: Product[] = [
   },
   {
     id: 12,
-    title: 'Sprite',
-    description: 'Sprite is one of our best sellers.',
-    fullDescription: 'Sprite is one of our best sellers. A lemon-lime flavored soft drink that’s perfect for hot days and casual sipping.',
+    title: 'PELLET BINDER - BERDA (KOREA)',
+    description: 'Ensure durable, nutrient-rich pellets that hold',
+    fullDescription: 'Ensure durable, nutrient-rich pellets that hold their shape, reduce waste, and improve feed handling.',
     category: 'Beverages',
     image: 'https://images.pexels.com/photos/31332092/pexels-photo-31332092/free-photo-of-refreshing-lemon-lime-soda-can-in-misty-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
