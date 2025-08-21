@@ -109,10 +109,10 @@ Licensed by BOC and BAI, we operate with full compliance as a trusted partner in
           </div>
           
           {/* Team Members */}
-          <div>
+         {/*  <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Meet Our Team</h2>
             <TeamMembers />
-          </div>
+          </div>*/}
         </div>
       </div>
     </div>
