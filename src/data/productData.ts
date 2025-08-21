@@ -111,9 +111,9 @@ export const products: Product[] = [
   },
   {
     id: 7,
-    title: 'Adidas Ultraboost 22',
-    description: 'Ultraboost 22 delivers unmatched running comfort.',
-    fullDescription: 'Designed with performance in mind, the Adidas Ultraboost 22 gives runners extra boost and comfort with each step.',
+    title: 'MEAT AND BONE MEAL (USA)',
+    description: 'High in protein, calcium, and phosphorus—essential',
+    fullDescription: 'High in protein, calcium, and phosphorus—essential for building strong bones, healthy muscles, and faster growth.',
     category: 'Shoes',
     image: 'https://images.pexels.com/photos/1280064/pexels-photo-1280064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
