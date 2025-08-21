@@ -63,9 +63,9 @@ export const products: Product[] = [
   },
   {
     id: 4,
-    title: 'iPhone 14',
-    description: 'iPhone 14 is one of our top electronics.',
-    fullDescription: 'iPhone 14 offers incredible camera quality, performance, and durability. Ideal for tech lovers who demand excellence.',
+    title: 'BUTTERLY CHEESE - FEEDS ATTRACTANT AND FLAVOR',
+    description: 'Make every bite irresistible—this premium',
+    fullDescription: 'Make every bite irresistible—this premium attractant enhances feed aroma and taste, ensuring maximum intake.',
     category: 'Electronics',
     image: 'https://images.pexels.com/photos/8004009/pexels-photo-8004009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
