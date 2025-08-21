@@ -6,7 +6,7 @@ const galleryImages = [
   {
     id: 1,
     src: '/home/project/public/cert/2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
-    alt: 'Modern office space',
+    alt: '2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
   },
   {
     id: 2,
