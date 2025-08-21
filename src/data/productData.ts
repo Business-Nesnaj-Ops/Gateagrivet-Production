@@ -3,9 +3,9 @@ import { Product } from '../types/product';
 export const products: Product[] = [
   {
     id: 1,
-    title: 'H I G H - E N E R GY B A K E RY ME A L - USA',
-    description: 'Best Coca-Cola Classic is one of our best sellers.',
-    fullDescription: 'Coca-Cola Classic is one of our best sellers. It is a refreshing drink perfect for any occasion. Whether at a party or relaxing at home, Coca-Cola satisfies your thirst like no other.',
+    title: 'HIGH - ENERGY BAKERY MEAL - USA',
+    description: 'Packed with concentrated energy and nutrients,',
+    fullDescription: 'Packed with concentrated energy and nutrients, this premium ingredient fuels faster growth and maximizes performance in both livestock and aquaculture feeds.',
     category: 'Beverages',
     image: 'https://images.pexels.com/photos/3819969/pexels-photo-3819969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     previewImage1:  'https://images.pexels.com/photos/31332092/pexels-photo-31332092/free-photo-of-refreshing-lemon-lime-soda-can-in-misty-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
