@@ -45,8 +45,7 @@ const AboutPage = () => {
             <div className="bg-gray-50 p-8 rounded-lg">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h2>
               <p className="text-gray-700">
-                To provide innovative, high-quality products that enhance our customers' lives while maintaining 
-                sustainable practices and fostering a culture of excellence and integrity.
+                To provide farmers and feed manufacturers with high-quality products and expert solutions that enhance animal health, nutrition, and productivity, while maintaining the highest standards of service and compliance.
               </p>
             </div>
             <div className="bg-gray-50 p-8 rounded-lg">
