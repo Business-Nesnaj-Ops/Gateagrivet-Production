@@ -63,7 +63,7 @@ const AboutPage = () => {
               {[
                 {
                   title: 'Quality',
-                  description: 'We are committed to excellence in everything we do, from product design to customer service.'
+                  description: 'We deliver only the highest standard of products and services to our clients.'
                 },
                 {
                   title: 'Innovation',
