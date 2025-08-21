@@ -47,7 +47,7 @@ export const products: Product[] = [
     id: 3,
     title: 'CORN PROTEIN CONCETRATE (CPC) EMPYREAL 75',
     description: 'Manufactured by CARGILL USA',
-    fullDescription: 'Pepsi is a globally loved soda known for its bold taste and satisfying fizz. Ideal for any meal or moment.',
+    fullDescription: 'Unlock peak growth and feed conversion with this high-digestibility protein source trusted by global feed manufacturers.',
     category: 'Beverages',
     image: 'https://images.pexels.com/photos/12040254/pexels-photo-12040254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     previewImage1: 'https://images.pexels.com/photos/12040254/pexels-photo-12040254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
