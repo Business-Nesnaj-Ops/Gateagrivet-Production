@@ -28,7 +28,7 @@ export const products: Product[] = [
     description: 'Boost water quality, feed efficiency, and fish health',
     fullDescription: 'Boost water quality, feed efficiency, and fish health with our specialized aqua additives—engineered for stronger, faster-growing aquatic stocks.',
     category: 'Beverages',
-    image: 'https://images.pexels.com/photos/31332092/pexels-photo-31332092/free-photo-of-refreshing-lemon-lime-soda-can-in-misty-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://lh3.googleusercontent.com/pw/AP1GczODXb4O13VHfl-m-JBMcDiZAIH6v46TgyyBSvMik0DrI6RzFjkl91GVxv_DMt9fHXae6QSA50E9h6A7MU4fRJeSmQe8ePhp_4p0xRz7Ck3YJ98lgD5bJAtakvM2ObsfmsDclbFHFYzwg7JkmpVDpFFx=w416-h924-s-no',
     previewImage1:  'https://images.pexels.com/photos/31332092/pexels-photo-31332092/free-photo-of-refreshing-lemon-lime-soda-can-in-misty-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     previewImage2:  'https://images.pexels.com/photos/31332092/pexels-photo-31332092/free-photo-of-refreshing-lemon-lime-soda-can-in-misty-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     previewImage3:  'https://images.pexels.com/photos/31332092/pexels-photo-31332092/free-photo-of-refreshing-lemon-lime-soda-can-in-misty-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
