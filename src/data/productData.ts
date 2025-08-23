@@ -182,7 +182,7 @@ export const products: Product[] = [
     previewImage4: 'https://images.pexels.com/photos/30942014/pexels-photo-30942014/free-photo-of-young-man-skateboarding-in-urban-skatepark.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     previewImage5: 'https://images.pexels.com/photos/30942014/pexels-photo-30942014/free-photo-of-young-man-skateboarding-in-urban-skatepark.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
-      Brand: 'Levi's',
+      Brand: 'Levi\'s',
       Model: '501 Original',
       Warranty: '1 year',
       Material: 'Denim',
@@ -327,7 +327,7 @@ export const products: Product[] = [
     id: 18,
     title: 'LG OLED C2 55" TV (10kg)',
     description: 'LG OLED C2 delivers stunning picture quality.',
-    fullDescription: 'With self-lit OLED technology, LG's C2 series offers perfect blacks and breathtaking visuals for movie lovers and gamers.',
+    fullDescription: 'With self-lit OLED technology, LG\'s C2 series offers perfect blacks and breathtaking visuals for movie lovers and gamers.',
     category: 'Electronics',
     image: 'https://images.pexels.com/photos/7476603/pexels-photo-7476603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
@@ -341,13 +341,13 @@ export const products: Product[] = [
   },
   {
     id: 19,
-    title: 'Levi's 501 Jeans (1kg)',
-    description: 'Levi's 501 Jeans are an all-time fashion staple.',
+    title: 'Levi\'s 501 Jeans (1kg)',
+    description: 'Levi\'s 501 Jeans are an all-time fashion staple.',
     fullDescription: 'These jeans are rugged, durable, and iconic—great for everyday wear or dressing up casual style.',
     category: 'Clothing',
     image: 'https://images.pexels.com/photos/30942014/pexels-photo-30942014/free-photo-of-young-man-skateboarding-in-urban-skatepark.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
-      Brand: 'Levi's',
+      Brand: 'Levi\'s',
       Model: '501 Original',
       Warranty: '1 year',
       Material: 'Denim',
@@ -391,7 +391,7 @@ export const products: Product[] = [
     id: 22,
     title: 'Sprite',
     description: 'Sprite is one of our best sellers.',
-    fullDescription: 'Sprite is one of our best sellers. A lemon-lime flavored soft drink that's perfect for hot days and casual sipping.',
+    fullDescription: 'Sprite is one of our best sellers. A lemon-lime flavored soft drink that\'s perfect for hot days and casual sipping.',
     category: 'Beverages',
     image: 'https://images.pexels.com/photos/31332092/pexels-photo-31332092/free-photo-of-refreshing-lemon-lime-soda-can-in-misty-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
@@ -487,7 +487,7 @@ export const products: Product[] = [
     id: 28,
     title: 'LG OLED C2 55" TV',
     description: 'LG OLED C2 delivers stunning picture quality.',
-    fullDescription: 'With self-lit OLED technology, LG's C2 series offers perfect blacks and breathtaking visuals for movie lovers and gamers.',
+    fullDescription: 'With self-lit OLED technology, LG\'s C2 series offers perfect blacks and breathtaking visuals for movie lovers and gamers.',
     category: 'Electronics',
     image: 'https://images.pexels.com/photos/7476603/pexels-photo-7476603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
@@ -501,13 +501,13 @@ export const products: Product[] = [
   },
   {
     id: 29,
-    title: 'Levi's 501 Jeans',
-    description: 'Levi's 501 Jeans are an all-time fashion staple.',
+    title: 'Levi\'s 501 Jeans',
+    description: 'Levi\'s 501 Jeans are an all-time fashion staple.',
     fullDescription: 'These jeans are rugged, durable, and iconic—great for everyday wear or dressing up casual style.',
     category: 'Clothing',
     image: 'https://images.pexels.com/photos/30942014/pexels-photo-30942014/free-photo-of-young-man-skateboarding-in-urban-skatepark.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
-      Brand: 'Levi's',
+      Brand: 'Levi\'s',
       Model: '501 Original',
       Warranty: '1 year',
       Material: 'Denim',
@@ -551,7 +551,7 @@ export const products: Product[] = [
     id: 32,
     title: 'Sprite',
     description: 'Sprite is one of our best sellers.',
-    fullDescription: 'Sprite is one of our best sellers. A lemon-lime flavored soft drink that's perfect for hot days and casual sipping.',
+    fullDescription: 'Sprite is one of our best sellers. A lemon-lime flavored soft drink that\'s perfect for hot days and casual sipping.',
     category: 'Beverages',
     image: 'https://images.pexels.com/photos/31332092/pexels-photo-31332092/free-photo-of-refreshing-lemon-lime-soda-can-in-misty-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
@@ -647,7 +647,7 @@ export const products: Product[] = [
     id: 38,
     title: 'LG OLED C2 55" TV',
     description: 'LG OLED C2 delivers stunning picture quality.',
-    fullDescription: 'With self-lit OLED technology, LG's C2 series offers perfect blacks and breathtaking visuals for movie lovers and gamers.',
+    fullDescription: 'With self-lit OLED technology, LG\'s C2 series offers perfect blacks and breathtaking visuals for movie lovers and gamers.',
     category: 'Electronics',
     image: 'https://images.pexels.com/photos/7476603/pexels-photo-7476603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
@@ -661,13 +661,13 @@ export const products: Product[] = [
   },
   {
     id: 39,
-    title: 'Levi's 501 Jeans',
-    description: 'Levi's 501 Jeans are an all-time fashion staple.',
+    title: 'Levi\'s 501 Jeans',
+    description: 'Levi\'s 501 Jeans are an all-time fashion staple.',
     fullDescription: 'These jeans are rugged, durable, and iconic—great for everyday wear or dressing up casual style.',
     category: 'Clothing',
     image: 'https://images.pexels.com/photos/30942014/pexels-photo-30942014/free-photo-of-young-man-skateboarding-in-urban-skatepark.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
-      Brand: 'Levi's',
+      Brand: 'Levi\'s',
       Model: '501 Original',
       Warranty: '1 year',
       Material: 'Denim',
@@ -711,7 +711,7 @@ export const products: Product[] = [
     id: 42,
     title: 'Sprite',
     description: 'Sprite is one of our best sellers.',
-    fullDescription: 'Sprite is one of our best sellers. A lemon-lime flavored soft drink that's perfect for hot days and casual sipping.',
+    fullDescription: 'Sprite is one of our best sellers. A lemon-lime flavored soft drink that\'s perfect for hot days and casual sipping.',
     category: 'Beverages',
     image: 'https://images.pexels.com/photos/31332092/pexels-photo-31332092/free-photo-of-refreshing-lemon-lime-soda-can-in-misty-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
@@ -807,7 +807,7 @@ export const products: Product[] = [
     id: 48,
     title: 'LG OLED C2 55" TV',
     description: 'LG OLED C2 delivers stunning picture quality.',
-    fullDescription: 'With self-lit OLED technology, LG's C2 series offers perfect blacks and breathtaking visuals for movie lovers and gamers.',
+    fullDescription: 'With self-lit OLED technology, LG\'s C2 series offers perfect blacks and breathtaking visuals for movie lovers and gamers.',
     category: 'Electronics',
     image: 'https://images.pexels.com/photos/7476603/pexels-photo-7476603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
@@ -821,13 +821,13 @@ export const products: Product[] = [
   },
   {
     id: 49,
-    title: 'Levi's 501 Jeans',
-    description: 'Levi's 501 Jeans are an all-time fashion staple.',
+    title: 'Levi\'s 501 Jeans',
+    description: 'Levi\'s 501 Jeans are an all-time fashion staple.',
     fullDescription: 'These jeans are rugged, durable, and iconic—great for everyday wear or dressing up casual style.',
     category: 'Clothing',
     image: 'https://images.pexels.com/photos/30942014/pexels-photo-30942014/free-photo-of-young-man-skateboarding-in-urban-skatepark.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
-      Brand: 'Levi's',
+      Brand: 'Levi\'s',
       Model: '501 Original',
       Warranty: '1 year',
       Material: 'Denim',
