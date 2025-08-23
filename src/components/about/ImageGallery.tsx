@@ -5,17 +5,17 @@ import { X } from 'lucide-react';
 const galleryImages = [
   {
     id: 1,
-    src: '/img/2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
+    src: '/img/2025 LTO BAI IMPORTER.GATEAGRIVET INC. (1)_page-0001.jpg',
     alt: '2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
   },
   {
     id: 2,
-     src: '/img/2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
+     src: '/img/2025 LTO BAI INDENTOR.GATEGRIVET INC_page-0001.jpg',
     alt: '2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
   },
   {
     id: 3,
-     src: '/img/2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
+     src: '/img/2025 LTO BAI SUPPLIER.GATEAGRIVET INC_page-0001.jpg',
     alt: '2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
   },
   /*
