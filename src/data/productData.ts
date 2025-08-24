@@ -70,7 +70,7 @@ export const products: Product[] = [
     description: 'Make every bite irresistible—this premium',
     fullDescription: 'Make every bite irresistible—this premium attractant enhances feed aroma and taste, ensuring maximum intake.',
     category: 'Electronics',
-    image: 'https://images.pexels.com/photos/8004009/pexels-photo-8004009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: '/product/Animal Protein/POULTRY MEAL (HYRDROLYZED).jpg',
     previewImage1: 'https://images.pexels.com/photos/8004009/pexels-photo-8004009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     previewImage2: 'https://images.pexels.com/photos/8004009/pexels-photo-8004009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     previewImage3: 'https://images.pexels.com/photos/8004009/pexels-photo-8004009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
