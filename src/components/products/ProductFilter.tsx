@@ -16,11 +16,11 @@ const ProductFilter = ({
 }: ProductFilterProps) => {
   const categories: { value: ProductCategory | 'all'; label: string }[] = [
     { value: 'all', label: 'All Categories' },
-    { value: 'Electronics', label: 'Electronics' },
-    { value: 'Beverages', label: 'Beverages' },
-    { value: 'Shoes', label: 'Shoes' },
-    { value: 'Clothing', label: 'Clothing' },
-    { value: 'sports', label: 'Sports & Outdoors' },
+    { value: 'Animal Protein', label: 'Animal Protein' },
+    { value: 'Marine Protein', label: 'Marine Protein' },
+    { value: 'Plant Protein', label: 'Plant Protein' },
+    { value: 'Other Products', label: 'Other Products' },
+     {/* { value: 'sports', label: 'Sports & Outdoors' },*/}
   ];
   
   return (
