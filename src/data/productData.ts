@@ -91,7 +91,7 @@ export const products: Product[] = [
     description: 'From poultry to livestock, our expertly',
     fullDescription: 'From poultry to livestock, our expertly formulated feeds provide complete nutrition for optimal health, productivity, and performance.',
     category: 'Electronics',
-    image: 'https://images.pexels.com/photos/30466740/pexels-photo-30466740/free-photo-of-elegant-smartphone-beside-potted-plants-on-desk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: '/product/Marine Protein/Corn protein.jpg',
     previewImage1: 'https://images.pexels.com/photos/30466740/pexels-photo-30466740/free-photo-of-elegant-smartphone-beside-potted-plants-on-desk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     previewImage2: 'https://images.pexels.com/photos/30466740/pexels-photo-30466740/free-photo-of-elegant-smartphone-beside-potted-plants-on-desk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     previewImage3: 'https://images.pexels.com/photos/30466740/pexels-photo-30466740/free-photo-of-elegant-smartphone-beside-potted-plants-on-desk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
