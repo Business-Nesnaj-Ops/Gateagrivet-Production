@@ -7,7 +7,7 @@ export const products: Product[] = [
     description: 'Packed with concentrated energy and nutrients,',
     fullDescription: 'Packed with concentrated energy and nutrients, this premium ingredient fuels faster growth and maximizes performance in both livestock and aquaculture feeds.',
     category: 'Beverages',
-    image: 'https://lh3.googleusercontent.com/pw/AP1GczPwwEEJIGtZjtk3ef-EgHfq1Bz-_-BeoRczlAQ3duvf3cnV21on-QzPZkOyI6IL9lcFOyY-ruuVkdXqiP_Vek6rejMkS2RSmOeFY6fWfIf6gAwXUu9D1I1fZGeJewcR4S2-KGJbGKi0xoC6rLI2iXhe=w416-h924-s-no',
+    image: '/product/Animal Protein/Bovine.jpg',
     previewImage1:  'https://images.pexels.com/photos/31332092/pexels-photo-31332092/free-photo-of-refreshing-lemon-lime-soda-can-in-misty-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     previewImage2: 'https://images.pexels.com/photos/3819969/pexels-photo-3819969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     previewImage3: 'https://images.pexels.com/photos/3819969/pexels-photo-3819969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
