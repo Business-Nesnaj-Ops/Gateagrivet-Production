@@ -1,7 +1,7 @@
 import { Product } from '../types/product';
 
 export const products: Product[] = [
-  
+  /*Animal Protein*/
   {
     id: 1,
     title: 'BOVINE / BEEF MEAT AND BONE MEAL',
@@ -86,7 +86,7 @@ export const products: Product[] = [
     },
     pdfSpec: '',
   },
- 
+  /*Marine Protein*/
   {
     id: 5,
     title: 'Squid Liver Powder (SLP)',
