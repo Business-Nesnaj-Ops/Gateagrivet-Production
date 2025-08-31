@@ -154,8 +154,8 @@ export const products: Product[] = [
   {
     id: 8,
     title: 'Corn Protein Concentrate (CPC)',
-    description: 'Premium-grade meat ingredient that boosts palatability',
-    fullDescription: 'Premium-grade meat ingredient that boosts palatability and protein levels in specialized feed formulas.',
+    description: 'A high-purity, high-protein corn concentrate produced by Cargill, designed primarily for aquaculture diets. It contains a high concentration of protein (~80%), making it a sustainable protein source that can replace more expensive protein sources like fishmeal. This product offers flexibility in diet design and is known for its superior binding and physical characteristics, promoting growth and health in animals while maintaining nutritional consistency.',
+    fullDescription: 'A high-purity, high-protein corn concentrate produced by Cargill, designed primarily for aquaculture diets. It contains a high concentration of protein (~80%), making it a sustainable protein source that can replace more expensive protein sources like fishmeal. This product offers flexibility in diet design and is known for its superior binding and physical characteristics, promoting growth and health in animals while maintaining nutritional consistency.',
     category: 'Plant Protein',
     image: '/product/03_PLANT_PROTEINS/CornMeal-empyreal75.png',
     previewImage1: '',
