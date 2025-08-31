@@ -14,7 +14,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Brand: 'Coca-Cola',
+      Brand: 'Animal Protein',
       Model: 'Classic',
       Warranty: '12 year',
       Material: 'Plastic Bottle',
