@@ -238,10 +238,10 @@ export const products: Product[] = [
    /*Other Products*/
   {
     id: 12,
-    title: 'PELLET BINDER - BERDA (KOREA)',
-    description: 'Ensure durable, nutrient-rich pellets that hold',
-    fullDescription: 'Ensure durable, nutrient-rich pellets that hold their shape, reduce waste, and improve feed handling.',
-    category: 'Beverages',
+    title: 'Pellet Binder',
+    description: 'A product made from Gelatine that ensure durable, nutrient-rich pellets that hold their shape,reduce waste, and improve feed handling. Guarantees PDI of 98%. Application for Aqua Feeds and Livestock Pellet Feeds.',
+    fullDescription: 'A product made from Gelatine that ensure durable, nutrient-rich pellets that hold their shape,reduce waste, and improve feed handling. Guarantees PDI of 98%. Application for Aqua Feeds and Livestock Pellet Feeds.',
+    category: 'Other Products',
     image: 'https://images.pexels.com/photos/31332092/pexels-photo-31332092/free-photo-of-refreshing-lemon-lime-soda-can-in-misty-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     previewImage1: '',
     previewImage2: '',
@@ -249,7 +249,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Brand: 'Coca-Cola',
+      Brand: 'Other Products',
       Model: 'N/a',
       Warranty: 'N/a',
       Material: 'N/a',
