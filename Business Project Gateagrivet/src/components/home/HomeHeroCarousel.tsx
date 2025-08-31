@@ -10,7 +10,7 @@ const carouselData = [
     description: 'Discover our collection of high-quality products designed for your needs.',
     buttonText: 'Shop Now',
     buttonLink: '/products',
-    image: 'https://media.istockphoto.com/id/153560796/photo/small-pig.jpg?s=1024x1024&w=is&k=20&c=xcUhUDVtqQzuB3VOT38JI3TxRJkAW-4IXTPHyCKRYZA=',
+    image: '/homepage/Animal Protein.jpg',
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const carouselData = [
     description: 'Stay up to date with our latest products and exclusive offers.',
     buttonText: 'View Collection',
     buttonLink: '/products',
-    image: 'https://images.pexels.com/photos/7019342/pexels-photo-7019342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: '/homepage/Marine Protein.jpg',
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const carouselData = [
     description: 'Our team is dedicated to providing exceptional customer service.',
     buttonText: 'Contact Us',
     buttonLink: '/contact',
-    image: 'https://images.pexels.com/photos/19492226/pexels-photo-19492226/free-photo-of-tomatoes-on-a-food-market.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: '/homepage/Plant Protein.jpg',
   }
 ];
 
