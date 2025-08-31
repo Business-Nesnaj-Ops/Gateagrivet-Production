@@ -248,9 +248,7 @@ const ProductModal = ({ product, onClose }: ProductModalProps) => {
                     {product.fullDescription || product.description}
                   </p>
                   <p className="text-gray-700 leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac metus nec metus facilisis lacinia. 
-                    Suspendisse potenti. Vivamus pharetra, nisi eget fringilla gravida, nibh eros porttitor dolor, vel imperdiet 
-                    lectus magna ac mauris.
+                    sa
                   </p>
                 </div>
               ) : (
