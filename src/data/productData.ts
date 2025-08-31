@@ -836,7 +836,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  {
+ // {
     id: 50,
     title: 'Uniqlo Supima Cotton Tee',
     description: 'Soft and stylish Supima Cotton T-shirt from Uniqlo.',
