@@ -18,7 +18,7 @@ export const products: Product[] = [
       Model: 'Classic',
       Warranty: '12 year',
       Material: 'Plastic Bottle',
-      Origin: 'United States',
+      Origin: 'U.S.A and South America',
     },
     pdfSpec: '/pdfs/sample-2.pdf',
   },
