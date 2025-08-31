@@ -216,9 +216,9 @@ export const products: Product[] = [
   },
 {
     id: 11,
-    title: 'MDCP AND MCP - CHINA ORIGIN',
-    description: 'Boost bone strength and growth efficiency with these essential',
-    fullDescription: 'Boost bone strength and growth efficiency with these essential phosphate minerals—trusted for consistent quality.',
+    title: 'Bakery Meals',
+    description: 'Packed with concentrated energy and nutrients, this premium ingredient fuels faster growth and maximizes performance in both livestock and aquaculture feeds.',
+    fullDescription: 'Packed with concentrated energy and nutrients, this premium ingredient fuels faster growth and maximizes performance in both livestock and aquaculture feeds.',
     category: 'Plant Protein',
     image: '/product/03_PLANT_PROTEINS/Sunflower Meal.jpg',
     previewImage1: '',
@@ -227,14 +227,15 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Brand: 'Coca-Cola',
+      Brand: 'Plant Protein',
       Model: 'N/a',
       Warranty: 'N/a',
       Material: 'N/a',
-      Origin: 'United States',
+      Origin: 'USA',
     },
     pdfSpec: '',
   },
+   /*Other Products*/
   {
     id: 12,
     title: 'PELLET BINDER - BERDA (KOREA)',
