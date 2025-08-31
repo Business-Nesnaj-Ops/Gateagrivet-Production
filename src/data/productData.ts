@@ -178,7 +178,7 @@ export const products: Product[] = [
     description: 'A plant-based protein powerhouse that supports sustainable, healthy animal growth without compromising nutrition.',
     fullDescription: 'A plant-based protein powerhouse that supports sustainable, healthy animal growth without compromising nutrition.',
     category: 'Plant Protein',
-    image: '/product/03_PLANT_PROTEINS/DDGS.jpg',
+    image: '/product/03_PLANT_PROTEINS/Sunflower Meal.jpg',
     previewImage1: '',
     previewImage2: '',
     previewImage3: '',
