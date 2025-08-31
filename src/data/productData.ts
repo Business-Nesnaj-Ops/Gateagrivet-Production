@@ -199,7 +199,7 @@ export const products: Product[] = [
     description: 'It is a nutrient-rich co-product of dry-milled ethanol production, widely used as a livestock feed ingredient.',
     fullDescription: 'It is a nutrient-rich co-product of dry-milled ethanol production, widely used as a livestock feed ingredient.',
     category: 'Plant Protein',
-    image: '/product/03_PLANT_PROTEINS/empyreal 75 logo.jpg',
+    image: '/product/03_PLANT_PROTEINS/DDGS.jpg',
     previewImage1: '',
     previewImage2: '',
     previewImage3: '',
