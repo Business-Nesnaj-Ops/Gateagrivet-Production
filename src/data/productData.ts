@@ -243,7 +243,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  {
+   {/*{
     id: 13,
     title: 'SQUID LIVER POWDER (SLP KOREA',
     description: 'A natural marine attractant that makes feeds',
@@ -261,7 +261,7 @@ export const products: Product[] = [
   },
 
   
-  {/*
+ 
   {
     id: 14,
     title: 'iPhone 14',
