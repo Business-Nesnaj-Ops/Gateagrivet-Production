@@ -6,7 +6,7 @@ const carouselData = [
   {
     id: 1,
     title: 'Premium Quality Products',
-    description: 'Discover our extensive collection of high-quality products carefully curated to meet your needs. From electronics to beverages, we offer only the finest selection.',
+    description: 'Discover our extensive collection of high-quality products carefully curated to meet your needs., we offer only the finest selection.',
     buttonText: 'Shop Now',
     buttonLink: '/products',
     image: 'https://media.istockphoto.com/id/153560796/photo/small-pig.jpg?s=1024x1024&w=is&k=20&c=xcUhUDVtqQzuB3VOT38JI3TxRJkAW-4IXTPHyCKRYZA=',
