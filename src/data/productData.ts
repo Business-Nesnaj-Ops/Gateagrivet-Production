@@ -3,9 +3,9 @@ import { Product } from '../types/product';
 export const products: Product[] = [
   {
     id: 1,
-    title: 'HIGH - ENERGY BAKERY MEAL - USA',
-    description: 'Packed with concentrated energy and nutrients,',
-    fullDescription: 'Packed with concentrated energy and nutrients, this premium ingredient fuels faster growth and maximizes performance in both livestock and aquaculture feeds.',
+    title: 'BOVINE / BEEF MEAT AND BONE MEAL',
+    description: 'High in protein, calcium, and phosphorus—essential for building strong bones,healthy muscles, and faster growth.',
+    fullDescription: 'High in protein, calcium, and phosphorus—essential for building strong bones,healthy muscles, and faster growth.',
     category: 'Animal Protein',
     image: '/product/01_Animal_Protein/Bovine.jpg',
     previewImage1:  'https://images.pexels.com/photos/31332092/pexels-photo-31332092/free-photo-of-refreshing-lemon-lime-soda-can-in-misty-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
