@@ -66,9 +66,9 @@ export const products: Product[] = [
   },
   {
     id: 4,
-    title: 'BUTTERLY CHEESE - FEEDS ATTRACTANT AND FLAVOR',
-    description: 'Make every bite irresistible—this premium',
-    fullDescription: 'Make every bite irresistible—this premium attractant enhances feed aroma and taste, ensuring maximum intake.',
+    title: 'PORCINE MEAL / PORK MEAT AND BONE MEAL ',
+    description: 'A premium protein source with 55–62% crude protein, rich in essential amino acids and minerals. Ideal for boosting growth, strength, and feed efficiency in livestock and aquaculture diets.',
+    fullDescription: 'A premium protein source with 55–62% crude protein, rich in essential amino acids and minerals. Ideal for boosting growth, strength, and feed efficiency in livestock and aquaculture diets.',
     category: 'Animal Protein',
     image: '/product/01_Animal_Protein/POULTRY MEAL (HYRDROLYZED).jpg',
     previewImage1: '',
