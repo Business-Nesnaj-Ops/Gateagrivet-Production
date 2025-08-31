@@ -259,8 +259,8 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  
-  //{
+  {/*
+  {
     id: 14,
     title: 'iPhone 14',
     description: 'iPhone 14 is one of our top electronics.',
@@ -276,7 +276,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 15,
     title: 'Samsung Galaxy S23',
     description: 'Galaxy S23 is a best-selling Android smartphone.',
@@ -292,7 +292,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 16,
     title: 'Nike Air Force 1',
     description: 'Nike Air Force 1 is a streetwear classic.',
@@ -308,7 +308,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 17,
     title: 'Adidas Ultraboost 22 (1kg)',
     description: 'Ultraboost 22 delivers unmatched running comfort.',
@@ -324,7 +324,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 18,
     title: 'LG OLED C2 55" TV (10kg)',
     description: 'LG OLED C2 delivers stunning picture quality.',
@@ -340,7 +340,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 19,
     title: 'Levi\'s 501 Jeans (1kg)',
     description: 'Levi\'s 501 Jeans are an all-time fashion staple.',
@@ -356,7 +356,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 20,
     title: 'Uniqlo Supima Cotton Tee',
     description: 'Soft and stylish Supima Cotton T-shirt from Uniqlo. Soft and stylish Supima Cotton T-shirt from Uniqlo. Soft and stylish Supima Cotton T-shirt from Uniqlo.',
@@ -372,7 +372,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 21,
     title: 'Coca-Cola Classic',
     description: 'Coca-Cola Classic is one of our best sellers.',
@@ -388,7 +388,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 22,
     title: 'Sprite',
     description: 'Sprite is one of our best sellers.',
@@ -404,7 +404,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 23,
     title: 'Pepsi',
     description: 'Pepsi is one of our best sellers.',
@@ -420,7 +420,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 24,
     title: 'iPhone 14',
     description: 'iPhone 14 is one of our top electronics.',
@@ -436,7 +436,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 25,
     title: 'Samsung Galaxy S23',
     description: 'Galaxy S23 is a best-selling Android smartphone.',
@@ -452,7 +452,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 26,
     title: 'Nike Air Force 1',
     description: 'Nike Air Force 1 is a streetwear classic.',
@@ -468,7 +468,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 27,
     title: 'Adidas Ultraboost 22',
     description: 'Ultraboost 22 delivers unmatched running comfort.',
@@ -484,7 +484,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 28,
     title: 'LG OLED C2 55" TV',
     description: 'LG OLED C2 delivers stunning picture quality.',
@@ -500,7 +500,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 29,
     title: 'Levi\'s 501 Jeans',
     description: 'Levi\'s 501 Jeans are an all-time fashion staple.',
@@ -516,7 +516,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 30,
     title: 'Uniqlo Supima Cotton Tee',
     description: 'Soft and stylish Supima Cotton T-shirt from Uniqlo.',
@@ -532,7 +532,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 31,
     title: 'Coca-Cola Classic',
     description: 'Coca-Cola Classic is one of our best sellers.',
@@ -548,7 +548,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 32,
     title: 'Sprite',
     description: 'Sprite is one of our best sellers.',
@@ -564,7 +564,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 33,
     title: 'Pepsi',
     description: 'Pepsi is one of our best sellers.',
@@ -580,7 +580,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 34,
     title: 'iPhone 14',
     description: 'iPhone 14 is one of our top electronics.',
@@ -596,7 +596,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 35,
     title: 'Samsung Galaxy S23',
     description: 'Galaxy S23 is a best-selling Android smartphone.',
@@ -612,7 +612,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 36,
     title: 'Nike Air Force 1',
     description: 'Nike Air Force 1 is a streetwear classic.',
@@ -628,7 +628,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 37,
     title: 'Adidas Ultraboost 22',
     description: 'Ultraboost 22 delivers unmatched running comfort.',
@@ -644,7 +644,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 38,
     title: 'LG OLED C2 55" TV',
     description: 'LG OLED C2 delivers stunning picture quality.',
@@ -660,7 +660,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 39,
     title: 'Levi\'s 501 Jeans',
     description: 'Levi\'s 501 Jeans are an all-time fashion staple.',
@@ -676,7 +676,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 40,
     title: 'Uniqlo Supima Cotton Tee',
     description: 'Soft and stylish Supima Cotton T-shirt from Uniqlo.',
@@ -692,7 +692,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 41,
     title: 'Coca-Cola Classic',
     description: 'Coca-Cola Classic is one of our best sellers.',
@@ -708,7 +708,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 42,
     title: 'Sprite',
     description: 'Sprite is one of our best sellers.',
@@ -724,7 +724,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 43,
     title: 'Pepsi',
     description: 'Pepsi is one of our best sellers.',
@@ -740,7 +740,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 44,
     title: 'iPhone 14',
     description: 'iPhone 14 is one of our top electronics.',
@@ -756,7 +756,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  //{
+  {
     id: 45,
     title: 'Samsung Galaxy S23',
     description: 'Galaxy S23 is a best-selling Android smartphone.',
@@ -772,7 +772,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-//{
+  {
     id: 46,
     title: 'Nike Air Force 1',
     description: 'Nike Air Force 1 is a streetwear classic.',
@@ -788,7 +788,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-// 
+  {
     id: 47,
     title: 'Adidas Ultraboost 22',
     description: 'Ultraboost 22 delivers unmatched running comfort.',
@@ -804,7 +804,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-//{
+  {
     id: 48,
     title: 'LG OLED C2 55" TV',
     description: 'LG OLED C2 delivers stunning picture quality.',
@@ -820,7 +820,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-//{
+  {
     id: 49,
     title: 'Levi\'s 501 Jeans',
     description: 'Levi\'s 501 Jeans are an all-time fashion staple.',
@@ -836,7 +836,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-//{
+  {
     id: 50,
     title: 'Uniqlo Supima Cotton Tee',
     description: 'Soft and stylish Supima Cotton T-shirt from Uniqlo.',
@@ -852,7 +852,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
- 
+  */}
   // ... Continue with 40 more unique entries
 
 ];
