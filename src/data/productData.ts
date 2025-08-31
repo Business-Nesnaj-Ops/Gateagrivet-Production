@@ -153,7 +153,7 @@ export const products: Product[] = [
    /*Plant Protein*/
   {
     id: 8,
-    title: 'QUALITY MEAT',
+    title: 'Corn Protein Concentrate (CPC)',
     description: 'Premium-grade meat ingredient that boosts palatability',
     fullDescription: 'Premium-grade meat ingredient that boosts palatability and protein levels in specialized feed formulas.',
     category: 'Plant Protein',
