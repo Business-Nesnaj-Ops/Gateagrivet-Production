@@ -16,8 +16,8 @@ export const products: Product[] = [
     specifications: {
       Brand: 'Animal Protein',
       Model: 'Classic',
-      Warranty: '12 year',
-      Material: 'Plastic Bottle',
+      Warranty: '',
+      Material: '',
       Origin: 'U.S.A and South America',
     },
     pdfSpec: '',
