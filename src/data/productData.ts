@@ -259,7 +259,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
- 
+  /*
   {
     id: 14,
     title: 'iPhone 14',
@@ -820,7 +820,6 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  /*
   {
     id: 49,
     title: 'Levi\'s 501 Jeans',
@@ -837,7 +836,6 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  */
   {
     id: 50,
     title: 'Uniqlo Supima Cotton Tee',
@@ -854,7 +852,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
- 
+  */
   // ... Continue with 40 more unique entries
 
 ];
