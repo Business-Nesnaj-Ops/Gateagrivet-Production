@@ -9,7 +9,7 @@ const carouselData = [
     description: 'Discover our extensive collection of high-quality products carefully curated to meet your needs., we offer only the finest selection.',
     buttonText: 'Shop Now',
     buttonLink: '/products',
-    image: '/homepage/Animal Protein.jpg',
+    image: 'img/homepage/Animal Protein.jpg',
   },
   {
     id: 2,
