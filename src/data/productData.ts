@@ -150,6 +150,7 @@ export const products: Product[] = [
     },
     pdfSpec: '',
   },
+   /*Plant Protein*/
   {
     id: 8,
     title: 'QUALITY MEAT',
