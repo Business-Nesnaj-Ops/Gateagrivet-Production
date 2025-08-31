@@ -77,13 +77,13 @@ export const products: Product[] = [
     previewImage4: 'https://images.pexels.com/photos/8004009/pexels-photo-8004009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     previewImage5: 'https://images.pexels.com/photos/8004009/pexels-photo-8004009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
-      Brand: 'Apple',
-      Model: 'iPhone 14',
-      Warranty: '2 years',
-      Material: 'Glass & Aluminum',
+      Brand: 'Animal Protein',
+      Model: 'N/a',
+      Warranty: 'N/a',
+      Material: 'N/a',
       Origin: 'United States',
     },
-    pdfSpec: '/pdfs/default-spec.pdf',
+    pdfSpec: '',
   },
   {
     id: 5,
