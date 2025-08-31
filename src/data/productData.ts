@@ -272,7 +272,7 @@ export const products: Product[] = [
       Material: 'N/a',
       Origin: 'United States',
     },
-    pdfSpec: '/pdfs/default-spec.pdf',
+    pdfSpec: '',
   },
   /*
   {
