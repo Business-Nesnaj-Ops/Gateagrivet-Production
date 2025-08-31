@@ -302,9 +302,9 @@ export const products: Product[] = [
   },
   {
     id: 15,
-    title: 'Samsung Galaxy S23',
-    description: 'Galaxy S23 is a best-selling Android smartphone.',
-    fullDescription: 'Samsung Galaxy S23 features a high-res camera, sleek design, and powerful chipset for all-day performance.',
+    title: 'Bacteriophages',
+    description: 'Also known as phage, is a virus that infects and replicates within Bacteria. They are the most abundant biological agents on Earth and play a significant role in regulating bacterial populations.',
+    fullDescription: 'Also known as phage, is a virus that infects and replicates within Bacteria. They are the most abundant biological agents on Earth and play a significant role in regulating bacterial populations.',
     category: 'Electronics',
     image: 'https://images.pexels.com/photos/30466740/pexels-photo-30466740/free-photo-of-elegant-smartphone-beside-potted-plants-on-desk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     specifications: {
@@ -312,9 +312,9 @@ export const products: Product[] = [
       Model: 'Galaxy S23',
       Warranty: '2 years',
       Material: 'Glass & Metal',
-      Origin: 'South Korea',
+      Origin: '"MALAYSIA, CHINA',
     },
-    pdfSpec: '/pdfs/default-spec.pdf',
+    pdfSpec: '',
   },
   /*
   {
