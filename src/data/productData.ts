@@ -132,8 +132,8 @@ export const products: Product[] = [
   {
     id: 7,
     title: 'Fish Meal',
-    description: 'High in protein, calcium, and phosphorus—essential',
-    fullDescription: 'High in protein, calcium, and phosphorus—essential for building strong bones, healthy muscles, and faster growth.',
+    description: 'Rich in omega-3s and essential amino acids, this premium marine protein supports superior growth, reproduction, and overall health. ',
+    fullDescription: 'Rich in omega-3s and essential amino acids, this premium marine protein supports superior growth, reproduction, and overall health. ',
     category: 'Marine Protein',
     image: '/product/02_Marine_Protein/Fish Meal.jpg',
     previewImage1: '',
