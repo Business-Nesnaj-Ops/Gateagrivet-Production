@@ -253,7 +253,7 @@ export const products: Product[] = [
       Model: 'N/a',
       Warranty: 'N/a',
       Material: 'N/a',
-      Origin: 'United States',
+      Origin: 'KOREA',
     },
     pdfSpec: '',
   },
