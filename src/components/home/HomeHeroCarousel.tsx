@@ -17,7 +17,7 @@ const carouselData = [
     description: 'Stay ahead of the curve with our weekly product updates. Experience the latest innovations and trending items before anyone else.',
     buttonText: 'View Collection',
     buttonLink: '/products',
-    image: '/homepage/Marine Protein.jpg',
+    image: 'img/homepage/Marine Protein.jpg',
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const carouselData = [
     description: 'Experience exceptional customer service with our dedicated team of experts. We\'re here to help you find the perfect products and answer all your questions.',
     buttonText: 'Contact Us',
     buttonLink: '/contact',
-    image: '/homepage/Plant Protein.jpg',
+    image: 'img/homepage/Plant Protein.jpg',
   }
 ];
 
