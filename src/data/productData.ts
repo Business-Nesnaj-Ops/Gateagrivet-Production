@@ -259,9 +259,7 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-
-   {/*
- 
+  
   {
     id: 14,
     title: 'iPhone 14',
@@ -853,7 +851,8 @@ export const products: Product[] = [
       Origin: 'Japan',
     },
     pdfSpec: '/pdfs/default-spec.pdf',
-  }, 
+  },
+  
   // ... Continue with 40 more unique entries
-*/}
+
 ];
