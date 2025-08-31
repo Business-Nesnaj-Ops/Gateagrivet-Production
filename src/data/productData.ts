@@ -261,7 +261,8 @@ export const products: Product[] = [
   },
 
   
-  {/*{
+  {/*
+  {
     id: 14,
     title: 'iPhone 14',
     description: 'iPhone 14 is one of our top electronics.',
