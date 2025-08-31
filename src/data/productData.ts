@@ -20,7 +20,7 @@ export const products: Product[] = [
       Material: 'Plastic Bottle',
       Origin: 'U.S.A and South America',
     },
-    pdfSpec: '/pdfs/sample-2.pdf',
+    pdfSpec: '',
   },
   {
     id: 2,
