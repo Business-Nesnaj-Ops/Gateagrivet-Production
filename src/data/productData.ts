@@ -131,7 +131,7 @@ export const products: Product[] = [
   },
   {
     id: 7,
-    title: 'MEAT AND BONE MEAL (USA)',
+    title: 'Fish Meal',
     description: 'High in protein, calcium, and phosphorus—essential',
     fullDescription: 'High in protein, calcium, and phosphorus—essential for building strong bones, healthy muscles, and faster growth.',
     category: 'Marine Protein',
@@ -142,11 +142,11 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Brand: 'Adidas',
+      Brand: 'Marine Protein',
       Model: 'N/a',
       Warranty: 'N/a',
       Material: 'N/a',
-      Origin: 'United States',
+      Origin: 'KOREA, CHINA,SOUTH AMERICA',
     },
     pdfSpec: '',
   },
