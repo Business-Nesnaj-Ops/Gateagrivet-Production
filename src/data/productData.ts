@@ -853,7 +853,7 @@ export const products: Product[] = [
       Origin: 'Japan',
     },
     pdfSpec: '/pdfs/default-spec.pdf',
-  }, */}
+  }, 
   // ... Continue with 40 more unique entries
-
+*/}
 ];
