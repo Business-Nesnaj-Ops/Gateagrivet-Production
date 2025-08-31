@@ -1,6 +1,7 @@
 import { Product } from '../types/product';
 
 export const products: Product[] = [
+  
   {
     id: 1,
     title: 'BOVINE / BEEF MEAT AND BONE MEAL',
@@ -85,6 +86,7 @@ export const products: Product[] = [
     },
     pdfSpec: '',
   },
+ 
   {
     id: 5,
     title: 'Squid Liver Powder (SLP)',
@@ -98,7 +100,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Brand: 'Samsung',
+      Brand: 'Marine Protein',
       Model: 'N/a',
       Warranty: 'N/a',
       Material: 'N/a',
