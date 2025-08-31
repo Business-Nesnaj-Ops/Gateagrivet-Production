@@ -820,7 +820,8 @@ export const products: Product[] = [
     },
     pdfSpec: '/pdfs/default-spec.pdf',
   },
-  {/*{
+  /*
+  {
     id: 49,
     title: 'Levi\'s 501 Jeans',
     description: 'Levi\'s 501 Jeans are an all-time fashion staple.',
@@ -835,7 +836,8 @@ export const products: Product[] = [
       Origin: 'USA',
     },
     pdfSpec: '/pdfs/default-spec.pdf',
-  },*/}
+  },
+  */
   {
     id: 50,
     title: 'Uniqlo Supima Cotton Tee',
