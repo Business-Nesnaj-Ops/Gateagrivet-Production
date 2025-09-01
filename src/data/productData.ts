@@ -15,7 +15,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Manufacturer: 'Animal Protein',
+      Gategory: 'Animal Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -36,7 +36,7 @@ export const products: Product[] = [
     previewImage4:  '',
     previewImage5:  '',
     specifications: {
-      Manufacturer: 'Animal Protein',
+      Gategory: 'Animal Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -57,7 +57,7 @@ export const products: Product[] = [
     previewImage4:  '',
     previewImage5:  '',
     specifications: {
-      Manufacturer: 'Animal Protein',
+      Gategory: 'Animal Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -78,7 +78,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Manufacturer: 'Animal Protein',
+      Gategory: 'Animal Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -100,7 +100,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Manufacturer: 'Marine Protein',
+      Gategory: 'Marine Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -121,7 +121,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Manufacturer: 'Marine Protein',
+      Gategory: 'Marine Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -142,7 +142,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Manufacturer: 'Marine Protein',
+      Gategory: 'Marine Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -164,7 +164,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Manufacturer: 'Plant Protein',
+      Gategory: 'Plant Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -185,7 +185,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Manufacturer: 'Plant Protein',
+      Gategory: 'Plant Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -206,7 +206,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Manufacturer: 'Plant Protein',
+      Gategory: 'Plant Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -227,7 +227,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Manufacturer: 'Plant Protein',
+      Gategory: 'Plant Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -249,7 +249,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Manufacturer: 'Other Products',
+      Gategory: 'Other Products',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -270,7 +270,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Manufacturer: 'Other Products',
+      Gategory: 'Other Products',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -292,7 +292,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Manufacturer: 'Other Products',
+      Gategory: 'Other Products',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -313,7 +313,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Manufacturer: 'Other Products',
+      Gategory: 'Other Products',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
