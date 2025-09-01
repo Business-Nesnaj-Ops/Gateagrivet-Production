@@ -21,7 +21,7 @@ const carouselData = [
   },
   {
     id: 3,
-    title: 'PLANT PROTEINS & amp; Co-By Products',
+    title: 'PLANT PROTEINS',
     description: 'Plant-based protein powerhouse that supports sustainable, healthy animal growth without compromising nutrition. Excellent source of crude proteins for dairy, poultry and aquatic diets.',
     buttonText: 'Contact Us',
     buttonLink: '/contact',
