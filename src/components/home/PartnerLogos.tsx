@@ -1,12 +1,14 @@
 import { useEffect, useRef } from 'react';
 
 const logos = [
-  '/img/logo.jpg',
-  '/img/logo.jpg',
-  'https://images.pexels.com/photos/5698855/pexels-photo-5698855.jpeg',
-  'https://images.pexels.com/photos/5698855/pexels-photo-5698855.jpeg',
-  '/img/logo.jpg',
-  'https://images.pexels.com/photos/5698855/pexels-photo-5698855.jpeg',
+  '/logos/1.png',
+  '/logos/2.png',
+  '/logos/3.png',
+  '/logos/4.png',
+  '/logos/5.png',
+  '/logos/6.png',
+  '/logos/7.png',
+  '/logos/8.png',
 ];
 
 const PartnerLogos = () => {
