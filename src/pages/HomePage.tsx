@@ -34,6 +34,23 @@ const HomePage = () => {
             </p>
             
           </div>
+            {/* Logos Section */}
+  <div className="grid grid-cols-2 gap-8 items-center justify-center max-w-md mx-auto">
+    <div className="flex justify-center">
+      <img 
+        src="/images/logo1.png" 
+        alt="Logo 1" 
+        className="h-16 object-contain"
+      />
+    </div>
+    <div className="flex justify-center">
+      <img 
+        src="/images/logo2.png" 
+        alt="Logo 2" 
+        className="h-16 object-contain"
+      />
+    </div>
+  </div>
           <FeaturedProducts />
         </div>
       </section>
