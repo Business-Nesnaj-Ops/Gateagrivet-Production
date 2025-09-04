@@ -306,7 +306,7 @@ export const products: Product[] = [
     description: 'Also known as phage, is a virus that infects and replicates within Bacteria. They are the most abundant biological agents on Earth and play a significant role in regulating bacterial populations.',
     fullDescription: 'Also known as phage, is a virus that infects and replicates within Bacteria. They are the most abundant biological agents on Earth and play a significant role in regulating bacterial populations.',
     category: 'Electronics',
-    image: '/product/04_Other_Products/sAQUA PHOTO - (FEEDS ADDITIVES) .jpg',
+    image: '/product/04_Other_Products/Bacteriophages.jpg',
     previewImage1: '',
     previewImage2: '',
     previewImage3: '',
