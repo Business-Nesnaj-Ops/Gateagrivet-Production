@@ -21,7 +21,7 @@ export const products: Product[] = [
       //Material: 'N/a',
       Origin: 'U.S.A and South America',
     },
-    pdfSpec: '/pdfs/coapdfsandadditionalproduct/COA Meat and Bone Meal.pdf',
+    pdfSpec: '',
   },
   {
     id: 2,
@@ -127,7 +127,7 @@ export const products: Product[] = [
       //Material: 'N/a',
       Origin: 'KOREA',
     },
-    pdfSpec: '/pdfs/coapdfsandadditionalproduct/COA Squid Liver Powder.pdf',
+    pdfSpec: '',
   },
   {
     id: 7,
@@ -170,7 +170,7 @@ export const products: Product[] = [
       //Material: 'N/a',
       Origin: 'USA',
     },
-    pdfSpec: '/pdfs/coapdfsandadditionalproduct/COA Corn Protein Concentrate.pdf',
+    pdfSpec: '',
   },
   {
     id: 9,
@@ -191,7 +191,7 @@ export const products: Product[] = [
       //Material: 'N/a',
       Origin: 'USA',
     },
-    pdfSpec: '/pdfs/coapdfsandadditionalproduct/COA SUN FLOWER MEAL.pdf',
+    pdfSpec: '',
   },
   {
     id: 10,
@@ -233,7 +233,7 @@ export const products: Product[] = [
       //Material: 'N/a',
       Origin: 'USA',
     },
-    pdfSpec: '/pdfs/coapdfsandadditionalproduct/COA BAKERY MEAL.pdf',
+    pdfSpec: '',
   },
    /*Other Products*/
   {
@@ -255,7 +255,7 @@ export const products: Product[] = [
       //Material: 'N/a',
       Origin: 'KOREA',
     },
-    pdfSpec: '/pdfs/coapdfsandadditionalproduct/COA Pellet Binder Berda.pdf',
+    pdfSpec: '',
   },
   {
     id: 13,
@@ -298,7 +298,7 @@ export const products: Product[] = [
       //Material: 'N/a',
       Origin: 'KOREA',
     },
-    pdfSpec: '/pdfs/coapdfsandadditionalproduct/COA Aqua Photo.pdf',
+    pdfSpec: '',
   },
   {
     id: 15,
@@ -319,7 +319,7 @@ export const products: Product[] = [
       //Material: 'N/a',
       Origin: 'MALAYSIA, CHINA',
     },
-    pdfSpec: '/pdfs/coapdfsandadditionalproduct/COA Bacteriophages.pdf',
+    pdfSpec: '',
   },
   
   /*
