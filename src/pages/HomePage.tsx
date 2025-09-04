@@ -21,7 +21,7 @@ const HomePage = () => {
            {/*<p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-12">
             We partner with the world's most respected brands to bring you premium quality products and exceptional service. Our commitment to excellence has made us a trusted name in the industry.
           </p>*/}
-          
+          <PartnerLogos />
         </div>
        
       </section>
@@ -32,7 +32,7 @@ const HomePage = () => {
             <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
               {/*Discover our carefully curated selection of premium products, each chosen for its exceptional quality and value. From cutting-edge electronics to refreshing beverages, we offer only the best for our discerning customers.*/}
             </p>
-            <PartnerLogos />
+            
           </div>
           <FeaturedProducts />
         </div>
