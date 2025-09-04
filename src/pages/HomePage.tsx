@@ -38,14 +38,14 @@ const HomePage = () => {
   <div className="grid grid-cols-2 gap-8 items-center justify-center max-w-md mx-auto">
     <div className="flex justify-center">
       <img 
-        src="/logos/1.png" 
+        src="/logos/empyreal75.png" 
         alt="Logo 1" 
         className="h-16 object-contain"
       />
     </div>
     <div className="flex justify-center">
       <img 
-        src="/logos/2.png" 
+        src="/logos/motiv.png" 
         alt="Logo 2" 
         className="h-16 object-contain"
       />
