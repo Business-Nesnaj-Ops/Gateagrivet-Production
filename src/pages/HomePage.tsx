@@ -21,8 +21,9 @@ const HomePage = () => {
           <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-12">
              {/*We partner with the world's most respected brands to bring you premium quality products and exceptional service. Our commitment to excellence has made us a trusted name in the industry.*/}
           </p>
-          <img src="/product/01_Animal_Protein/POULTRY MEAL (HYRDROLYZED).jpg" alt="POULTRY MEAL (HYRDROLYZED)" class="w-full h-full object-contain">
+          
         </div>
+        <img src="/product/01_Animal_Protein/POULTRY MEAL (HYRDROLYZED).jpg" alt="POULTRY MEAL (HYRDROLYZED)" class="w-full h-full object-contain">
       </section>
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
