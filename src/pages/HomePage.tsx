@@ -18,9 +18,9 @@ const HomePage = () => {
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">Protein Source Company</h2>
-          <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-12">
-             {/*We partner with the world's most respected brands to bring you premium quality products and exceptional service. Our commitment to excellence has made us a trusted name in the industry.*/}
-          </p>
+           {/*<p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-12">
+            We partner with the world's most respected brands to bring you premium quality products and exceptional service. Our commitment to excellence has made us a trusted name in the industry.
+          </p>*/}
           
         </div>
        
