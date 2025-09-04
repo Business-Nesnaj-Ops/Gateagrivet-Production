@@ -23,7 +23,7 @@ const HomePage = () => {
           </p>
           
         </div>
-        <img src="/product/01_Animal_Protein/POULTRY MEAL (HYRDROLYZED).jpg" alt="POULTRY MEAL (HYRDROLYZED)" class="w-full h-full object-contain">
+       
       </section>
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
