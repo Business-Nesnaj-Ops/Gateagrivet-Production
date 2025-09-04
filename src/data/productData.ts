@@ -21,7 +21,7 @@ export const products: Product[] = [
       //Material: 'N/a',
       Origin: 'U.S.A and South America',
     },
-    pdfSpec: '',
+    pdfSpec: '/pdfs/coapdfsandadditionalproduct/COA Meat and Bone Meal.pdf',
   },
   {
     id: 2,
