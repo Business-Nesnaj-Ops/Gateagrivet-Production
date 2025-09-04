@@ -16,7 +16,7 @@ const galleryImages = [
   {
     id: 3,
      src: '/img/2025 LTO BAI SUPPLIER.GATEAGRIVET INC_page-0001.jpg',
-    alt: '2025 LTO BAI SUPPLIER.GATEAGRIVET INC_page-0001',
+    alt: '2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
   },
   /*
   {
