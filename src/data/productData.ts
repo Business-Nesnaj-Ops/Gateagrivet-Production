@@ -127,7 +127,7 @@ export const products: Product[] = [
       //Material: 'N/a',
       Origin: 'KOREA',
     },
-    pdfSpec: '',
+    pdfSpec: '/pdfs/coapdfsandadditionalproduct/COA Squid Liver Powder.pdf',
   },
   {
     id: 7,
@@ -191,7 +191,7 @@ export const products: Product[] = [
       //Material: 'N/a',
       Origin: 'USA',
     },
-    pdfSpec: '',
+    pdfSpec: '/pdfs/coapdfsandadditionalproduct/COA SUN FLOWER MEAL.pdf',
   },
   {
     id: 10,
@@ -255,7 +255,7 @@ export const products: Product[] = [
       //Material: 'N/a',
       Origin: 'KOREA',
     },
-    pdfSpec: '',
+    pdfSpec: '/pdfs/coapdfsandadditionalproduct/COA Pellet Binder Berda.pdf',
   },
   {
     id: 13,
