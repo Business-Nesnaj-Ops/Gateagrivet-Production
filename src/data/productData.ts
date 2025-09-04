@@ -233,7 +233,7 @@ export const products: Product[] = [
       //Material: 'N/a',
       Origin: 'USA',
     },
-    pdfSpec: '/pdfs/coapdfsandadditionalproduct/COA BAKERY MEAL.pdf',
+    pdfSpec: '',
   },
    /*Other Products*/
   {
@@ -319,7 +319,7 @@ export const products: Product[] = [
       //Material: 'N/a',
       Origin: 'MALAYSIA, CHINA',
     },
-    pdfSpec: '',
+    pdfSpec: '/pdfs/coapdfsandadditionalproduct/COA Bacteriophages.pdf',
   },
   
   /*
