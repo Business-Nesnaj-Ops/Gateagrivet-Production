@@ -298,7 +298,7 @@ export const products: Product[] = [
       //Material: 'N/a',
       Origin: 'KOREA',
     },
-    pdfSpec: '',
+    pdfSpec: '/pdfs/coapdfsandadditionalproduct/COA Aqua Photo.pdf',
   },
   {
     id: 15,
