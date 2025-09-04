@@ -29,7 +29,7 @@ const HomePage = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900">Featured Products</h2>
             <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-              Discover our carefully curated selection of premium products, each chosen for its exceptional quality and value. From cutting-edge electronics to refreshing beverages, we offer only the best for our discerning customers.
+              {//Discover our carefully curated selection of premium products, each chosen for its exceptional quality and value. From cutting-edge electronics to refreshing beverages, we offer only the best for our discerning customers.
             </p>
           </div>
           <FeaturedProducts />
