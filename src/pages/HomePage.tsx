@@ -31,6 +31,7 @@ const HomePage = () => {
             <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
               {/*Discover our carefully curated selection of premium products, each chosen for its exceptional quality and value. From cutting-edge electronics to refreshing beverages, we offer only the best for our discerning customers.*/}
             </p>
+            <PartnerLogos />
           </div>
           <FeaturedProducts />
         </div>
