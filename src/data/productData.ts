@@ -170,7 +170,7 @@ export const products: Product[] = [
       //Material: 'N/a',
       Origin: 'USA',
     },
-    pdfSpec: '',
+    pdfSpec: '/pdfs/coapdfsandadditionalproduct/COA Corn Protein Concentrate.pdf',
   },
   {
     id: 9,
