@@ -35,6 +35,7 @@ const HomePage = () => {
             
           </div>
             {/* Logos Section */}
+          <div></div>
   <div className="grid grid-cols-2 gap-8 items-center justify-center max-w-md mx-auto">
     <div className="flex justify-center">
       <img 
