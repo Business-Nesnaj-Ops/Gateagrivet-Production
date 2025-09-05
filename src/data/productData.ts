@@ -88,7 +88,7 @@ export const products: Product[] = [
   },
   /*Animal Protein*/
   {
-    id: 1,
+    id: 5,
     title: 'BOVINE / BEEF MEAT AND BONE MEAL',
     description: 'High in protein, calcium, and phosphorus—essential for building strong bones,healthy muscles, and faster growth.',
     fullDescription: 'High in protein, calcium, and phosphorus—essential for building strong bones,healthy muscles, and faster growth.',
@@ -109,7 +109,7 @@ export const products: Product[] = [
     pdfSpec: '',
   },
   {
-    id: 2,
+    id: 6,
     title: 'POULTRY MEAL (HYRDROLYZED)',
     description: 'High protein ingredient used in animal feed especially for pets and livestock due to its',
     fullDescription: 'High protein ingredient used in animal feed especially for pets and livestock due to its',
@@ -130,7 +130,7 @@ export const products: Product[] = [
     pdfSpec: '',
   },
   {
-    id: 3,
+    id: 7,
     title: 'LAMB MEAL (FEED GRADE)',
     description: 'Rendered lamb meat processed to remove moisture and fat giving Rendered lamb meat processed to remove moisture and fat giving concentrated protein source. Essentials for dog food due to its high protein content.',
     fullDescription: 'Rendered lamb meat processed to remove moisture and fat giving Rendered lamb meat processed to remove moisture and fat giving concentrated protein source. Essentials for dog food due to its high protein content.',
@@ -151,7 +151,7 @@ export const products: Product[] = [
     pdfSpec: '',
   },
   {
-    id: 4,
+    id: 8,
     title: 'PORCINE MEAL / PORK MEAT AND BONE MEAL ',
     description: 'A premium protein source with 55–62% crude protein, rich in essential amino acids and minerals. Ideal for boosting growth, strength, and feed efficiency in livestock and aquaculture diets.',
     fullDescription: 'A premium protein source with 55–62% crude protein, rich in essential amino acids and minerals. Ideal for boosting growth, strength, and feed efficiency in livestock and aquaculture diets.',
@@ -173,7 +173,7 @@ export const products: Product[] = [
   },
   /*Marine Protein*/
   {
-    id: 5,
+    id: 9,
     title: 'Squid Liver Powder (SLP)',
     description: 'A natural marine attractant that makes feeds irresistible while delivering rich protein for enhanced growth.',
     fullDescription: 'A natural marine attractant that makes feeds irresistible while delivering rich protein for enhanced growth.',
@@ -194,7 +194,7 @@ export const products: Product[] = [
     pdfSpec: '',
   },
   {
-    id: 6,
+    id: 10,
     title: 'Squid Liver Paste',
     description: 'A natural marine attractant that makes feeds irresistible while delivering rich protein for enhanced growth.',
     fullDescription: 'A natural marine attractant that makes feeds irresistible while delivering rich protein for enhanced growth.',
@@ -215,7 +215,7 @@ export const products: Product[] = [
     pdfSpec: '',
   },
   {
-    id: 7,
+    id: 11,
     title: 'Fish Meal',
     description: 'Rich in omega-3s and essential amino acids, this premium marine protein supports superior growth, reproduction, and overall health. ',
     fullDescription: 'Rich in omega-3s and essential amino acids, this premium marine protein supports superior growth, reproduction, and overall health. ',
