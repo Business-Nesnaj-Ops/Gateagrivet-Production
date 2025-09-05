@@ -25,6 +25,27 @@ export const products: Product[] = [
   },
   {
     id: 2,
+    title: 'FERMENTED CORN PROTEIN (MOTIV)',
+    description: 'A high-purity, high-protein corn concentrate produced by Cargill, designed primarily for aquaculture diets. It contains a high concentration of protein (~80%), making it a sustainable protein source that can replace more expensive protein sources like fishmeal. This product offers flexibility in diet design and is known for its superior binding and physical characteristics, promoting growth and health in animals while maintaining nutritional consistency.',
+    fullDescription: 'A high-purity, high-protein corn concentrate produced by Cargill, designed primarily for aquaculture diets. It contains a high concentration of protein (~80%), making it a sustainable protein source that can replace more expensive protein sources like fishmeal. This product offers flexibility in diet design and is known for its superior binding and physical characteristics, promoting growth and health in animals while maintaining nutritional consistency.',
+    category: 'Plant Protein',
+    image: '/product/03_PLANT_PROTEINS/FERMENTED CORN PROTEIN (MOTIV).png',
+    previewImage1: '',
+    previewImage2: '',
+    previewImage3: '',
+    previewImage4: '',
+    previewImage5: '',
+    specifications: {
+      Gategory: 'Plant Protein',
+      //Model: 'Classic',
+      //Warranty: 'N/a',
+      //Material: 'N/a',
+      Origin: 'USA',
+    },
+    pdfSpec: '',
+  },
+  {
+    id: 3,
     title: 'Sunflower Meal (SFM)',
     description: 'A plant-based protein powerhouse that supports sustainable, healthy animal growth without compromising nutrition.',
     fullDescription: 'A plant-based protein powerhouse that supports sustainable, healthy animal growth without compromising nutrition.',
@@ -45,7 +66,7 @@ export const products: Product[] = [
     pdfSpec: '',
   },
   {
-    id: 3,
+    id: 4,
     title: 'DDGS',
     description: 'It is a nutrient-rich co-product of dry-milled ethanol production, widely used as a livestock feed ingredient.',
     fullDescription: 'It is a nutrient-rich co-product of dry-milled ethanol production, widely used as a livestock feed ingredient.',
@@ -66,7 +87,7 @@ export const products: Product[] = [
     pdfSpec: '',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Bakery Meals',
     description: 'Packed with concentrated energy and nutrients, this premium ingredient fuels faster growth and maximizes performance in both livestock and aquaculture feeds.',
     fullDescription: 'Packed with concentrated energy and nutrients, this premium ingredient fuels faster growth and maximizes performance in both livestock and aquaculture feeds.',
@@ -88,7 +109,7 @@ export const products: Product[] = [
   },
   /*Animal Protein*/
   {
-    id: 5,
+    id: 6,
     title: 'BOVINE / BEEF MEAT AND BONE MEAL',
     description: 'High in protein, calcium, and phosphorus—essential for building strong bones,healthy muscles, and faster growth.',
     fullDescription: 'High in protein, calcium, and phosphorus—essential for building strong bones,healthy muscles, and faster growth.',
@@ -109,7 +130,7 @@ export const products: Product[] = [
     pdfSpec: '',
   },
   {
-    id: 6,
+    id: 7,
     title: 'POULTRY MEAL (HYRDROLYZED)',
     description: 'High protein ingredient used in animal feed especially for pets and livestock due to its',
     fullDescription: 'High protein ingredient used in animal feed especially for pets and livestock due to its',
@@ -130,7 +151,7 @@ export const products: Product[] = [
     pdfSpec: '',
   },
   {
-    id: 7,
+    id: 8,
     title: 'LAMB MEAL (FEED GRADE)',
     description: 'Rendered lamb meat processed to remove moisture and fat giving Rendered lamb meat processed to remove moisture and fat giving concentrated protein source. Essentials for dog food due to its high protein content.',
     fullDescription: 'Rendered lamb meat processed to remove moisture and fat giving Rendered lamb meat processed to remove moisture and fat giving concentrated protein source. Essentials for dog food due to its high protein content.',
@@ -151,7 +172,7 @@ export const products: Product[] = [
     pdfSpec: '',
   },
   {
-    id: 8,
+    id: 9,
     title: 'PORCINE MEAL / PORK MEAT AND BONE MEAL ',
     description: 'A premium protein source with 55–62% crude protein, rich in essential amino acids and minerals. Ideal for boosting growth, strength, and feed efficiency in livestock and aquaculture diets.',
     fullDescription: 'A premium protein source with 55–62% crude protein, rich in essential amino acids and minerals. Ideal for boosting growth, strength, and feed efficiency in livestock and aquaculture diets.',
@@ -173,7 +194,7 @@ export const products: Product[] = [
   },
   /*Marine Protein*/
   {
-    id: 9,
+    id: 10,
     title: 'Squid Liver Powder (SLP)',
     description: 'A natural marine attractant that makes feeds irresistible while delivering rich protein for enhanced growth.',
     fullDescription: 'A natural marine attractant that makes feeds irresistible while delivering rich protein for enhanced growth.',
@@ -194,7 +215,7 @@ export const products: Product[] = [
     pdfSpec: '',
   },
   {
-    id: 10,
+    id: 11,
     title: 'Squid Liver Paste',
     description: 'A natural marine attractant that makes feeds irresistible while delivering rich protein for enhanced growth.',
     fullDescription: 'A natural marine attractant that makes feeds irresistible while delivering rich protein for enhanced growth.',
@@ -215,7 +236,7 @@ export const products: Product[] = [
     pdfSpec: '',
   },
   {
-    id: 11,
+    id: 12,
     title: 'Fish Meal',
     description: 'Rich in omega-3s and essential amino acids, this premium marine protein supports superior growth, reproduction, and overall health. ',
     fullDescription: 'Rich in omega-3s and essential amino acids, this premium marine protein supports superior growth, reproduction, and overall health. ',
@@ -238,7 +259,7 @@ export const products: Product[] = [
  
    /*Other Products*/
   {
-    id: 12,
+    id: 13,
     title: 'Pellet Binder',
     description: 'A product made from Gelatine that ensure durable, nutrient-rich pellets that hold their shape,reduce waste, and improve feed handling. Guarantees PDI of 98%. Application for Aqua Feeds and Livestock Pellet Feeds.',
     fullDescription: 'A product made from Gelatine that ensure durable, nutrient-rich pellets that hold their shape,reduce waste, and improve feed handling. Guarantees PDI of 98%. Application for Aqua Feeds and Livestock Pellet Feeds.',
@@ -259,7 +280,7 @@ export const products: Product[] = [
     pdfSpec: '',
   },
   {
-    id: 13,
+    id: 14,
     title: 'MCP /MDCP',
     description: 'A product that Boost bone strength and growth efficiency with these essential phosphate minerals—trusted for consistent quality. Phosporus Content 21-22%',
     fullDescription: 'A product that Boost bone strength and growth efficiency with these essential phosphate minerals—trusted for consistent quality. Phosporus Content 21-22%',
@@ -281,7 +302,7 @@ export const products: Product[] = [
   },
   
   {
-    id: 14,
+    id: 15,
     title: 'Aqua Photo',
     description: 'Combination of three probiotics, Bacillus subtilis, Lactobacillus plantarum, and Clostridium butyrium for aquatic animals. Boost water quality, feed efficiency, and fish health with our specialized aqua additives—engineered for stronger, faster-growing aquatic stocks.',
     fullDescription: 'Combination of three probiotics, Bacillus subtilis, Lactobacillus plantarum, and Clostridium butyrium for aquatic animals. Boost water quality, feed efficiency, and fish health with our specialized aqua additives—engineered for stronger, faster-growing aquatic stocks.',
@@ -302,7 +323,7 @@ export const products: Product[] = [
     pdfSpec: '',
   },
   {
-    id: 15,
+    id: 16,
     title: 'Bacteriophages',
     description: 'Also known as phage, is a virus that infects and replicates within Bacteria. They are the most abundant biological agents on Earth and play a significant role in regulating bacterial populations.',
     fullDescription: 'Also known as phage, is a virus that infects and replicates within Bacteria. They are the most abundant biological agents on Earth and play a significant role in regulating bacterial populations.',
