@@ -35,11 +35,12 @@ const HomePage = () => {
             
           </div>
             {/* Logos Section */}
-      <section className="py-16 bg-white">
+
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             
           </div>
+             </div>
   <div className="grid grid-cols-2 gap-8 items-center justify-center max-w-md mx-auto">
     <div className="flex justify-center">
       <img 
