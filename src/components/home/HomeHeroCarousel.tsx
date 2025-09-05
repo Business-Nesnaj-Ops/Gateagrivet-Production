@@ -58,7 +58,7 @@ const HomeHeroCarousel = () => {
     return () => {
       if (interval) clearInterval(interval);
     };
-  }, [isAutoPlaying, currentSlide]);
+  }, [isAutoPlaying]);
 
   return (
     <div className="relative h-[70vh] md:h-[80vh] overflow-hidden">
