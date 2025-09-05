@@ -15,7 +15,7 @@ const logos = [
 ];
 
 const PartnerLogos = () => {
-  const repeatedLogos = [...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos];
+  const repeatedLogos = [...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos, ...logos];
 
   return (
     <>
