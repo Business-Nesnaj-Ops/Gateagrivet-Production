@@ -1,4 +1,4 @@
-export type ProductCategory = 'Animal Protein' | 'Marine Protein' | 'Plant Protein' | 'Other Products';
+export type ProductCategory = 'Plant Protein' | 'Animal Protein' | 'Marine Protein' | 'Other Products';
 
 export interface ProductSpecifications {
   [key: string]: string;
