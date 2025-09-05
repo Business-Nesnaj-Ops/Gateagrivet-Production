@@ -16,9 +16,9 @@ const ProductFilter = ({
 }: ProductFilterProps) => {
   const categories: { value: ProductCategory | 'all'; label: string }[] = [
     { value: 'all', label: 'All Categories' },
+    { value: 'Plant Protein', label: 'Plant Protein' },
     { value: 'Animal Protein', label: 'Animal Protein' },
     { value: 'Marine Protein', label: 'Marine Protein' },
-    { value: 'Plant Protein', label: 'Plant Protein' },
     { value: 'Other Products', label: 'Other Products' },
      {/* { value: 'sports', label: 'Sports & Outdoors' },*/}
   ];
