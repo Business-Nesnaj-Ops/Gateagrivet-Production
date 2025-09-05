@@ -11,6 +11,7 @@ const logos = [
   '/logos/8.png',
   '/logos/9.png',
   '/logos/10.png',
+  '/logos/11.png',
 ];
 
 const PartnerLogos = () => {
