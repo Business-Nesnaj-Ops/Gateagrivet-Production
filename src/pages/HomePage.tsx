@@ -35,7 +35,7 @@ const HomePage = () => {
             
           </div>
             {/* Logos Section */}
-<hr></hr>
+
   <div className="grid grid-cols-2 gap-8 items-center justify-center max-w-md mx-auto">
     <div className="flex justify-center">
       <img 
@@ -51,6 +51,7 @@ const HomePage = () => {
         className="h-16 object-contain"
       />
     </div>
+    <hr></hr>
   </div>
           <FeaturedProducts />
         </div>
