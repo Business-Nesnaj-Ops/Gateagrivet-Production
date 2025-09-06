@@ -129,7 +129,7 @@ export const products: Product[] = [
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
-      Origin: 'U.S.A and South America',
+      Origin: 'USA, South America, Korea, Europe',
     },
     pdfSpec: '',
   },
