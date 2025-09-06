@@ -347,7 +347,7 @@ export const products: Product[] = [
     title: 'Bacteriophages',
     description: 'A product that is a Specific Bacteriophage for Specific Bacteria. Also known as phage, is a virus that infects and replicates within Bacteria. They are the most abundant biological agents on Earth and play a significant role in regulating bacterial populations',
     fullDescription: 'A product that is a Specific Bacteriophage for Specific Bacteria. Also known as phage, is a virus that infects and replicates within Bacteria. They are the most abundant biological agents on Earth and play a significant role in regulating bacterial populations',
-    content:'Crude Protein Content: 50%',
+    content:'Essential Content: 50%',
     category: 'Electronics',
     image: '/product/04_Other_Products/Bacteriophages.jpg',
     previewImage1: '',
