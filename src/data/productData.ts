@@ -15,7 +15,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Guaranteed Crude Protein: 'Animal Protein',
+      GuaranteedCrudeProtein: 'Animal Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
