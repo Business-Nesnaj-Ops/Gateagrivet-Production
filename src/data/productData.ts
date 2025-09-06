@@ -36,7 +36,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Gategory: 'Plant Protein',
+      Category: 'Plant Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -57,7 +57,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Gategory: 'Plant Protein',
+      Category: 'Plant Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -78,7 +78,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Gategory: 'Plant Protein',
+      Category: 'Plant Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -99,7 +99,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Gategory: 'Plant Protein',
+      Category: 'Plant Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -121,7 +121,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Gategory: 'Animal Protein',
+      Category: 'Animal Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -142,7 +142,7 @@ export const products: Product[] = [
     previewImage4:  '',
     previewImage5:  '',
     specifications: {
-      Gategory: 'Animal Protein',
+      Category: 'Animal Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -163,7 +163,7 @@ export const products: Product[] = [
     previewImage4:  '',
     previewImage5:  '',
     specifications: {
-      Gategory: 'Animal Protein',
+      Category: 'Animal Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -184,7 +184,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Gategory: 'Animal Protein',
+      Category: 'Animal Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -206,7 +206,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Gategory: 'Marine Protein',
+      Category: 'Marine Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -227,7 +227,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Gategory: 'Marine Protein',
+      Category: 'Marine Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -248,7 +248,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Gategory: 'Marine Protein',
+      Category: 'Marine Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -271,7 +271,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Gategory: 'Other Products',
+      Category: 'Other Products',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -292,7 +292,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Gategory: 'Other Products',
+      Category: 'Other Products',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -314,7 +314,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Gategory: 'Other Products',
+      Category: 'Other Products',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
@@ -335,7 +335,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Gategory: 'Other Products',
+      Category: 'Other Products',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
