@@ -256,7 +256,7 @@ export const products: Product[] = [
     title: 'Fish Meal',
     description: 'Rich in omega-3s and essential amino acids, this premium marine protein supports superior growth, reproduction, and overall health. ',
     fullDescription: 'Rich in omega-3s and essential amino acids, this premium marine protein supports superior growth, reproduction, and overall health. ',
-    content:'Crude Protein Content: 50%',
+    content:'Crude Protein Content: 55%',
     category: 'Marine Protein',
     image: '/product/02_Marine_Protein/Fish Meal.jpg',
     previewImage1: '',
