@@ -1,17 +1,17 @@
 import { useEffect, useRef } from 'react';
 
 const logos = [
-  '/logos/1.png',
-  '/logos/2.png',
-  '/logos/3.png',
-  '/logos/4.png',
-  '/logos/5.png',
-  '/logos/6.png',
-  '/logos/7.png',
-  '/logos/8.png',
-  '/logos/9.png',
-  '/logos/10.png',
-  '/logos/11.png',
+  '/logos/product ess/1.png',
+  '/logos/product ess/2.png',
+  '/logos/product ess/3.png',
+  '/logos/product ess/4.png',
+  '/logos/product ess/5.png',
+  '/logos/product ess/6.png',
+  '/logos/product ess/7.png',
+  '/logos/product ess/8.png',
+  '/logos/product ess/9.png',
+  '/logos/product ess/10.png',
+
 ];
 
 const PartnerLogos = () => {
