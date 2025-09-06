@@ -70,7 +70,7 @@ export const products: Product[] = [
   },
   {
     id: 4,
-    title: 'DDGS',
+    title: 'DDGS HI-PRO ',
     description: 'It is a nutrient-rich co-product of dry-milled ethanol production, widely used as a livestock feed ingredient.',
     fullDescription: 'It is a nutrient-rich co-product of dry-milled ethanol production, widely used as a livestock feed ingredient.',
     category: 'Plant Protein',
