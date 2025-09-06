@@ -144,7 +144,7 @@ export const products: Product[] = [
     title: 'POULTRY MEAL (Hydrolyzed)',
     description: 'High protein ingredient used in animal feed especially for pets and livestock due to its',
     fullDescription: 'High protein ingredient used in animal feed especially for pets and livestock due to its',
-    content:'Crude Protein Content: 50%',
+    content:'Crude Protein Content: 80%',
     category: 'Animal Protein',
     image: '/product/01_Animal_Protein/POULTRY MEAL (HYRDROLYZED).jpg',
     previewImage1:  '',
