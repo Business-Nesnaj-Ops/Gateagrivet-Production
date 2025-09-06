@@ -166,7 +166,7 @@ export const products: Product[] = [
     title: 'LAMB MEAL (FEED GRADE)',
     description: 'Rendered lamb meat processed to remove moisture and fat giving Rendered lamb meat processed to remove moisture and fat giving concentrated protein source. Essentials for dog food due to its high protein content.',
     fullDescription: 'Rendered lamb meat processed to remove moisture and fat giving Rendered lamb meat processed to remove moisture and fat giving concentrated protein source. Essentials for dog food due to its high protein content.',
-    content:'Crude Protein Content: 50%',
+    content:'Crude Protein Content: 55%',
     category: 'Animal Protein',
     image: '/product/01_Animal_Protein/Lamb Meal.jpg',
     previewImage1: '',
