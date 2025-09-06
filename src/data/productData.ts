@@ -135,7 +135,7 @@ export const products: Product[] = [
   },
   {
     id: 7,
-    title: 'POULTRY MEAL (HYRDROLYZED)',
+    title: 'POULTRY MEAL (Hydrolyzed)',
     description: 'High protein ingredient used in animal feed especially for pets and livestock due to its',
     fullDescription: 'High protein ingredient used in animal feed especially for pets and livestock due to its',
     category: 'Animal Protein',
