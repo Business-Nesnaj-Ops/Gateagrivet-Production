@@ -248,7 +248,7 @@ const ProductModal = ({ product, onClose }: ProductModalProps) => {
                     {product.fullDescription || product.description}
                   </p>
                     <hr></hr>
-                   <p className="text-gray-700 leading-relaxed mb-4">
+                   <p className="text-gray-700 leading-relaxed mb-4 font-bold">
                     {product.contenttitle || product.contenttitle}
                   </p>
                    <p className="text-gray-700 leading-relaxed mb-4">
