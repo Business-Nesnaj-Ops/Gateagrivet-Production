@@ -6,7 +6,7 @@ const galleryImages = [
   {
     id: 1,
     src: '/img/2025 LTO BAI IMPORTER.GATEAGRIVET INC._page-0001.jpg',
-    alt: '2025_LTO_BAI_IMPORTER_GATEAGRIVET_INC..png',
+    alt: '2025 LTO BAI IMPORTER.GATEAGRIVET INC._page-0001',
   },
   {
     id: 2,
