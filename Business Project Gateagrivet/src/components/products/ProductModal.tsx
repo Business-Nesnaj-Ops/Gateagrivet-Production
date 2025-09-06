@@ -110,6 +110,9 @@ const ProductModal = ({ product, onClose }: ProductModalProps) => {
                   <p className="text-gray-700 leading-relaxed mb-4">
                     {product.fullDescription || product.description}
                   </p>
+                   <p className="text-gray-700 leading-relaxed mb-4">
+                    {product.content || product.content}
+                  </p>
                   <p className="text-gray-700 leading-relaxed">
                     
                   </p>
