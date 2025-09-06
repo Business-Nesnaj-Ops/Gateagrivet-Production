@@ -907,3 +907,5 @@ export const products: Product[] = [
   },
   */
   // ... Continue with 40 more unique entries
+
+]
