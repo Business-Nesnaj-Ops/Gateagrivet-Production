@@ -7,8 +7,8 @@ export const products: Product[] = [
     id: 1,
     title: 'Corn Protein Concentrate (CPC)',
     description: 'A high-purity, high-protein corn concentrate produced by Cargill, designed primarily for aquaculture diets while equally beneficial to Livestock like Poultry, Swine and Pet Foods. It contains a high concentration of protein (~80%), making it a sustainable protein source that can replace more expensive protein sources like fishmeal. This product offers flexibility in diet design and is known for its superior binding and physical characteristics, promoting growth and health in animals while maintaining nutritional consistency.',
-    fullDescription: 'A high-purity, high-protein corn concentrate produced by Cargill, designed primarily for aquaculture diets while equally beneficial to Livestock like Poultry, Swine and Pet Foods. It contains a high concentration of protein (~80%), making it a sustainable protein source that can replace more expensive protein sources like fishmeal. This product offers flexibility in diet design and is known for its superior binding and physical characteristics, promoting growth and health in animals while maintaining nutritional consistency.' +\n\n +'n animals while maintaining nutritional consistency.' ,
-    
+    fullDescription: 'A high-purity, high-protein corn concentrate produced by Cargill, designed primarily for aquaculture diets while equally beneficial to Livestock like Poultry, Swine and Pet Foods. It contains a high concentration of protein (~80%), making it a sustainable protein source that can replace more expensive protein sources like fishmeal. This product offers flexibility in diet design and is known for its superior binding and physical characteristics, promoting growth and health in animals while maintaining nutritional consistency.',
+    Content:'health in animals while maintaining nutritional consistency.',
     category: 'Plant Protein',
     image: '/product/03_PLANT_PROTEINS/Corn Protein Concentrate (CPC).jpg',
     previewImage1: '',
