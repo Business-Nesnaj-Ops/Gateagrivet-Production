@@ -6,7 +6,8 @@ export const products: Product[] = [
   {
     id: 1,
     title: 'Corn Protein Concentrate (Empyreal 75)',
-    description: '',
+    description: 'A high-purity, high-protein corn concentrate produced by Cargill, designed primarily for aquaculture diets while equally beneficial to Livestock like Poultry, Swine and Pet Foods. It contains a high concentration of protein (~80%), making it a sustainable protein source that can replace more expensive protein sources like fishmeal. This product offers flexibility in diet design and is known for its superior binding and physical characteristics, promoting growth and health in animals while maintaining nutritional consistency.',
+    fullDescription: '',
     contenttitle:' Crude Protein Content: 75%',
     content:'Best source of Crude Protein at 75% , CPC is A high-purity, high-protein corn concentrate produced by Cargill, designed primarily for aquaculture diets while equally beneficial to Livestock like Poultry, Swine and Pet Foods. It contains a high concentration of protein making it a sustainable protein source that can replace more expensive protein sources like fishmeal. This product offers flexibility in diet design and is known for its superior binding and physical characteristics, promoting growth and health in animals while maintaining nutritional consistency.',
     
@@ -30,7 +31,7 @@ export const products: Product[] = [
     id: 2,
     title: 'FERMENTED CORN PROTEIN (MOTIV)',
     description: 'Motiv is the new, powerful choice for getting better performance and value from your shrimp diets.Produced through the unique effects of fermentation, Motiv simplifies the diet through one functional macro ingredient that combines high nutritional and protein value with the functional value shrimp producers need. The result is a better gut environment that increases nutrient utilization while promoting overall health and survivability.',
-    fullDescription: '',
+    fullDescription: 'Fermented Corn Protein Known as MOTIV Fermented Corn Protein, is the dried proteinaceous fraction of the corn and corn extractives from the wet milling industry. The corn extractives and proteinaceous fraction are a result of the steep fermentation process and separation processes of corn in the wet milling industry. The proteinaceous fraction from the corn is concentrated primarily from the endosperm after the removal of the majority of the non-protein components by enzymatic solubilization. The proteinaceous fraction shall be processed with the corn extractives as they undergo the naturally occurring fermentation by lactic acid producing microorganisms as practiced in the wet mill. The resulting fermented proteinaceous fraction shall not contain less than 68% protein on a free moisture basis.',
     contenttitle:' Crude Protein Content: 65%',
     content:' A Fermented Corn Protein Bio Active Peptides. MOTIV is the dried proteinaceous fraction of the corn and corn extractives from the wet milling industry. The corn extractives and proteinaceous fraction are a result of the steep fermentation process and separation processes of corn in the wet milling industry. The proteinaceous fraction from the corn is concentrated primarily from the endosperm after the removal of the majority of the non-protein components by enzymatic solubilization. The proteinaceous fraction shall be processed with the corn extractives as they undergo the naturally occurring fermentation by lactic acid producing microorganisms as practiced in the wet mill. The resulting fermented proteinaceous fraction shall not contain less than 68% protein on a free moisture basis.',
 
