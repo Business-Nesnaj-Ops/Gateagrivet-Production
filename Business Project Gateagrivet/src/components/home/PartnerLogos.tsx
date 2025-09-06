@@ -16,7 +16,6 @@ const PartnerLogos = () => {
     <>
     <div className="text-center py-8">
       {/*<h2 className="text-2xl font-bold text-gray-800">Our Partners</h2>*/}
-        <h2 className="text-2xl font-bold text-gray-800">PRODUCTS ESSENTIAL FOR</h2>
     </div>
       <div className="w-full overflow-hidden py-4">
         <div className="flex animate-scroll whitespace-nowrap">
