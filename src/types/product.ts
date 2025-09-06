@@ -9,6 +9,7 @@ export interface Product {
   title: string;
   description: string;
   fullDescription?: string;
+  Crude Protein Content?: string;
   category: ProductCategory;
   image: string;
   previewImage1: string;
