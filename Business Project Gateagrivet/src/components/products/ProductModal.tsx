@@ -137,7 +137,7 @@ const ProductModal = ({ product, onClose }: ProductModalProps) => {
               
               {/* PDF viewer section */}
               <div className="mt-8">
-                <h4 className="text-lg font-medium mb-4">Product Specification Sheet</h4>
+                 {/* <h4 className="text-lg font-medium mb-4">Product Specification Sheet</h4>*/}
                 
                 {pdfError ? (
                   <div className="border rounded-lg p-4 text-center">
