@@ -302,7 +302,7 @@ export const products: Product[] = [
     title: 'MCP /MDCP',
     description: 'A product that Boost bone strength and growth efficiency with these essential phosphate minerals—trusted for consistent quality. Phosporus Content 21-22%',
     fullDescription: 'A product that Boost bone strength and growth efficiency with these essential phosphate minerals—trusted for consistent quality. Phosporus Content 21-22%',
-    content:'Essential Content: 50%',
+    content:'Essential Content: Phosporus 21-22% ',
     category: 'Other Products',
     image: '/product/04_Other_Products/MCP _ MDCP.avif',
     previewImage1: '',
