@@ -177,7 +177,7 @@ export const products: Product[] = [
   },
   {
     id: 9,
-    title: 'PORCINE MEAL / PORK MEAT AND BONE MEAL ',
+    title: 'Porcine Meat and Bone Meal (MBM Pork)  ',
     description: 'A premium protein source with 55–62% crude protein, rich in essential amino acids and minerals. Ideal for boosting growth, strength, and feed efficiency in livestock and aquaculture diets.',
     fullDescription: 'A premium protein source with 55–62% crude protein, rich in essential amino acids and minerals. Ideal for boosting growth, strength, and feed efficiency in livestock and aquaculture diets.',
     category: 'Animal Protein',
