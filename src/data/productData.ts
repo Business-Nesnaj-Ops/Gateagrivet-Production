@@ -15,7 +15,7 @@ export const products: Product[] = [
     previewImage4: '',
     previewImage5: '',
     specifications: {
-      Gategory: 'Plant Protein',
+      Guaranteed C.P-: 'Plant Protein',
       //Model: 'Classic',
       //Warranty: 'N/a',
       //Material: 'N/a',
