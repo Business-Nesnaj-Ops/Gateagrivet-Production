@@ -9,6 +9,7 @@ export interface Product {
   title: string;
   description: string;
   fullDescription?: string;
+  content?: string;
   category: ProductCategory;
   image: string;
   specifications?: ProductSpecifications;
