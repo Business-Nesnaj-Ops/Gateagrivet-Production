@@ -1,7 +1,8 @@
 import { Product } from '../types/product';
 
 export const products: Product[] = [
-    /*Plant Protein*/
+  
+  /*Plant Protein*/
   {
     id: 1,
     title: 'Corn Protein Concentrate (CPC)',
@@ -107,6 +108,7 @@ export const products: Product[] = [
     },
     pdfSpec: '',
   },
+  
   /*Animal Protein*/
   {
     id: 6,
@@ -192,6 +194,7 @@ export const products: Product[] = [
     },
     pdfSpec: '',
   },
+  
   /*Marine Protein*/
   {
     id: 10,
@@ -257,7 +260,7 @@ export const products: Product[] = [
     pdfSpec: '',
   },
 
-   /*Other Products*/
+  /*Other Products*/
   {
     id: 13,
     title: 'Pellet Binder',
