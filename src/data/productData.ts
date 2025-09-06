@@ -212,7 +212,7 @@ export const products: Product[] = [
     title: 'Squid Liver Powder (SLP)',
     description: 'A natural marine attractant that makes feeds irresistible while delivering rich protein for enhanced growth.',
     fullDescription: 'A natural marine attractant that makes feeds irresistible while delivering rich protein for enhanced growth.',
-    content:'Crude Protein Content: 50%',
+    content:'Crude Protein Content: 45%',
     category: 'Marine Protein',
     image: '/product/02_Marine_Protein/Squid Liver Powder.jpeg',
     previewImage1: '',
