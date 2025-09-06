@@ -11,7 +11,7 @@ const galleryImages = [
   {
     id: 2,
      src: '/img/2025 LTO BAI INDENTOR.GATEGRIVET INC_page-0001.jpg',
-    alt: '2025 LTO BAI INDENTOR.GATEGRIVET INC_page-0001',
+     alt: '2025 LTO BAI INDENTOR.GATEGRIVET INC_page-0001',
   },
   {
     id: 3,
