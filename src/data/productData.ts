@@ -49,7 +49,7 @@ export const products: Product[] = [
   },
   {
     id: 3,
-    title: 'Sunflower Meal (SFM)',
+    title: 'Sunflower Seed Meal (SFM)',
     description: 'A plant-based protein powerhouse that supports sustainable, healthy animal growth without compromising nutrition.',
     fullDescription: 'A plant-based protein powerhouse that supports sustainable, healthy animal growth without compromising nutrition.',
     category: 'Plant Protein',
