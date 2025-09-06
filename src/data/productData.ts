@@ -325,7 +325,7 @@ export const products: Product[] = [
     title: 'Aqua Photo',
     description: 'Combination of three probiotics, Bacillus subtilis, Lactobacillus plantarum, and Clostridium butyrium for aquatic animals. Boost water quality, feed efficiency, and fish health with our specialized aqua additives—engineered for stronger, faster-growing aquatic stocks.',
     fullDescription: 'Combination of three probiotics, Bacillus subtilis, Lactobacillus plantarum, and Clostridium butyrium for aquatic animals. Boost water quality, feed efficiency, and fish health with our specialized aqua additives—engineered for stronger, faster-growing aquatic stocks.',
-    content:'Crude Protein Content: 50%',
+    content:'Essential Content: Butyricum 6',
     category: 'Other Products',
     image: '/product/04_Other_Products/AQUA PHOTO - (FEEDS ADDITIVES) .jpg',
     previewImage1: '',
