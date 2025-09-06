@@ -273,7 +273,7 @@ const ProductModal = ({ product, onClose }: ProductModalProps) => {
               )}
               
               <div className="mt-8">
-                <h4 className="text-lg font-medium mb-4">Product Specification Sheet</h4>
+                {/* <h4 className="text-lg font-medium mb-4">Product Specification Sheet</h4>*/}
                 <div className="border rounded-lg overflow-hidden">
                   {renderPdfSection()}
                 </div>
