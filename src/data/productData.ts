@@ -280,8 +280,8 @@ export const products: Product[] = [
   {
     id: 13,
     title: 'Pellet Binder',
-    description: 'A product made from Gelatine that ensure durable, nutrient-rich pellets that hold their shape,reduce waste, and improve feed handling. Guarantees PDI of 98%. Application for Aqua Feeds and Livestock Pellet Feeds.',
-    fullDescription: 'A product made from Gelatine that ensure durable, nutrient-rich pellets that hold their shape,reduce waste, and improve feed handling. Guarantees PDI of 98%. Application for Aqua Feeds and Livestock Pellet Feeds.',
+    description: 'The only Gelatin based Pellet Binder. It ensures durable, nutrient-rich pellets that hold their shape,reduce waste, and improve feed handling. Guarantees PDI of 98%. Application for Aqua Feeds, Livestock and Pet Foods',
+    fullDescription: 'The only Gelatin based Pellet Binder. It ensures durable, nutrient-rich pellets that hold their shape,reduce waste, and improve feed handling. Guarantees PDI of 98%. Application for Aqua Feeds, Livestock and Pet Foods',
     contenttitle:'Crude Protein Content: 48%',
     category: 'Other Products',
     image: '/product/04_Other_Products/Pellet Binder Berda.png',
