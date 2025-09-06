@@ -67,7 +67,7 @@ const ProductModal = ({ product, onClose }: ProductModalProps) => {
       return (
         <div className="p-4 text-center bg-gray-50 text-gray-600">
            <p>No PDF specification available for this product.</p>
-          <p className="text-sm mt-1">Please contact support for detailed specifications.</p>
+          {/*<p className="text-sm mt-1">Please contact support for detailed specifications.</p>*/}
         </div>
       );
     }
