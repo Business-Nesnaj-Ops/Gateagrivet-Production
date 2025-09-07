@@ -35,7 +35,7 @@ const Footer = () => {
               </a>
               <a href="https://viber.com" target="_blank" rel="noopener noreferrer" aria-label="Viber" className="text-gray-400 hover:text-white transition-colors">
                 <FaViber size={20} />
-                </a>
+               </a>
             </div>
           </div>
 
