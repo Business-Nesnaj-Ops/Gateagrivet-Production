@@ -7,7 +7,7 @@ import {
   Facebook, 
   Instagram, 
   MessageCircle,
-  Viber
+  FaViber
 } from 'lucide-react';
 
 const Footer = () => {
@@ -34,7 +34,7 @@ const Footer = () => {
                 <MessageCircle size={20} />
               </a>
               <a href="https://viber.com" target="_blank" rel="noopener noreferrer" aria-label="Viber" className="text-gray-400 hover:text-white transition-colors">
-                <Viber size={20} />
+                <FaViber size={20} />
                 </a>
             </div>
           </div>
