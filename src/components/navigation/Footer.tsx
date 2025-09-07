@@ -1,5 +1,10 @@
 import { NavLink } from 'react-router-dom';
-import { MapPin, Phone, Mail, Clock, Facebook, Instagram, MessageCircle, Vibrate as Viber } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Facebook, Instagram, MessageCircle } from 'lucide-react';
+
+// Custom Viber icon component
+const ViberIcon = ({ size = 20 }: { size?: number }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+    <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm4.52 7.33c-.18-.8-.64-1.26-1.44-1.44-.24-.05-.48-.09-.73-.12-.23-.03-.47-.05-.7-.06-.24-.01-.48-.01-.72 0-.47.02-.94.07-1.4.15-.46.08-.9.19-1.33.33-.21.07-.42.15-.62.24-.2.09-.39.19-.57.3-.36.22-.68.49-.94.81-.13.16-.24.33-.33.51-.09.18-.16.37-.21.56-.1.38-.15.77-.15 1.16 0 .2.01.4.03.6.02.2.05.4.09.59.08.39.2.77.36 1.13.16.36.36.7.6 1.01.24.31.52.59.83.83.31.24.65.44 1.01.6.36.16.74.28 1.13.36.19.04.39.07.59.09.2.02.4.03.6.03.39 0 .78-.05 1.16-.15.19-.05.38-.12.56-.21.18-.09.35-.2.51-.33.32-.26.59-.58.81-.94.11-.18.21-.37.3-.57.09-.2.17-.41.24-.62.14-.43.25-.87.33-1.33.08-.46.13-.93.15-1.4.01-.24.01-.48 0-.72-.01-.23-.03-.47-.06-.7-.03-.25-.07-.49-.12-.73-.18-.8-.64-1.26-1.44-1.44z"/>
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -25,7 +30,7 @@ const Footer = () => {
                 <MessageCircle size={20} />
               </a>
               <a href="https://viber.com" target="_blank" rel="noopener noreferrer" aria-label="Viber" className="text-gray-400 hover:text-white transition-colors">
-                <Viber size={20} />
+                <ViberIcon size={20} />
                </a>
             </div>
           </div>
