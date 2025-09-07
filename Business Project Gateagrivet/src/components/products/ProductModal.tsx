@@ -108,7 +108,7 @@ const ProductModal = ({ product, onClose }: ProductModalProps) => {
               {activeTab === 'description' ? (
                 <div>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    {product.fullDescription || product.description}
+                    {product.fullDescription || product.fullDescription}
                   </p>
                    <p className="text-gray-700 leading-relaxed mb-4 font-bold">
                     {product.contenttitle || product.contenttitle}
