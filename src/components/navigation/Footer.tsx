@@ -1,14 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { 
-  MapPin, 
-  Phone, 
-  Mail, 
-  Clock, 
-  Facebook, 
-  Instagram, 
-  MessageCircle,
-  Viber
-} from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Facebook, Instagram, MessageCircle, Vibrate as Viber } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
