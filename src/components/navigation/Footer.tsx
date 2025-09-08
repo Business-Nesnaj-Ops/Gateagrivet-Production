@@ -34,12 +34,12 @@ const Footer: React.FC = () => {
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+               {/*<a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin className="w-6 h-6" />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <ViberIcon className="w-6 h-6" />
-              </a>
+              </a>*/}
             </div>
           </div>
 
